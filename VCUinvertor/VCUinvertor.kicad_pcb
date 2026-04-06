@@ -75,7 +75,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "D:/Git/Shield_VCU_Invertoare/VCUinvertor/Gerbers/")
+			(outputdirectory "../Gerbers_bigSMD/")
 		)
 	)
 	(net 0 "")

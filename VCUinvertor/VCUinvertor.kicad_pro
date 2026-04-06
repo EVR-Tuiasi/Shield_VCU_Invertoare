@@ -504,7 +504,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "D:/Git/Shield_VCU_Invertoare/VCUinvertor/Gerbers/",
+      "plot": "../Gerbers_bigSMD/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
