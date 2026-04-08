@@ -17226,6 +17226,17 @@
 				(xyz -90 -0 90)
 			)
 		)
+		(model "D:/Git/Shield_VCU_Invertoare/2.Datasheet/LTC2645HMS-L12_PBF/LTC2645HMS-L12_PBF.step"
+			(offset
+				(xyz 0 0 0.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
+			)
+		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
 		(layer "F.Cu")
