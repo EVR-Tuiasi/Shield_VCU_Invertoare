@@ -6125,10 +6125,22 @@
 		(uuid "0810f3c0-fbf3-4582-be27-8f7ee29b6952")
 	)
 	(junction
+		(at 78.74 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "085ca5fb-de8b-47e5-b2ae-d8e8f5596daf")
+	)
+	(junction
 		(at 308.61 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0984d629-fa17-40fa-a584-5e3285bfac7c")
+	)
+	(junction
+		(at 25.4 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1839db7b-5107-4c91-9ad1-f1aa54ff3c57")
 	)
 	(junction
 		(at 377.19 182.88)
@@ -6425,10 +6437,6 @@
 		(uuid "0992f8c8-34ae-41ba-b826-a5be890fd98f")
 	)
 	(no_connect
-		(at 81.28 189.23)
-		(uuid "0c1b9521-85d2-4c71-95f4-f873a31a93ce")
-	)
-	(no_connect
 		(at 67.31 63.5)
 		(uuid "0f8f8f87-2a10-4ad1-9b88-3de6182e833a")
 	)
@@ -6455,10 +6463,6 @@
 	(no_connect
 		(at 109.22 73.66)
 		(uuid "247b650b-030d-4cca-96ee-ff8d936dd6f4")
-	)
-	(no_connect
-		(at 85.09 185.42)
-		(uuid "24fa8aba-843f-453b-ad1f-edf20334176d")
 	)
 	(no_connect
 		(at 109.22 38.1)
@@ -6531,10 +6535,6 @@
 	(no_connect
 		(at 67.31 60.96)
 		(uuid "5984e6f6-c5a8-4aef-b8ea-cf615ae5285c")
-	)
-	(no_connect
-		(at 33.02 184.15)
-		(uuid "5bb867ea-cbf8-408f-9582-ea7a71022364")
 	)
 	(no_connect
 		(at 67.31 97.79)
@@ -6701,10 +6701,6 @@
 		(uuid "ddca4271-0541-4405-a936-c042983e929c")
 	)
 	(no_connect
-		(at 29.21 187.96)
-		(uuid "e54ad1e9-e3e8-455f-bcc7-3add1e7fd7ec")
-	)
-	(no_connect
 		(at 67.31 130.81)
 		(uuid "e6fedbe5-1f11-4df0-9783-e0ce900c8570")
 	)
@@ -6763,16 +6759,6 @@
 	(no_connect
 		(at 67.31 110.49)
 		(uuid "ff6a9d29-7a80-4702-a1a1-11e614eeee7f")
-	)
-	(wire
-		(pts
-			(xy 261.62 223.52) (xy 261.62 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00eb51f7-3cb5-48e7-8bf4-89d0a381a709")
 	)
 	(wire
 		(pts
@@ -6853,16 +6839,6 @@
 			(type default)
 		)
 		(uuid "0678b232-9980-4933-a9a0-9dfcf8d68cd7")
-	)
-	(wire
-		(pts
-			(xy 260.35 252.73) (xy 260.35 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0686124d-5186-4da9-a6e7-05d36058e291")
 	)
 	(wire
 		(pts
@@ -7026,6 +7002,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 184.15) (xy 25.4 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "160615cc-55ff-4457-81f3-8be31b3b552e")
+	)
+	(wire
+		(pts
 			(xy 199.39 72.39) (xy 201.93 72.39)
 		)
 		(stroke
@@ -7033,6 +7019,16 @@
 			(type default)
 		)
 		(uuid "16a7d6ea-f6da-4cfc-a10f-a988d2ff5e5f")
+	)
+	(wire
+		(pts
+			(xy 29.21 187.96) (xy 25.4 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17dd4731-20a7-44e4-94f9-5374ad64c130")
 	)
 	(wire
 		(pts
@@ -7126,7 +7122,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 175.26) (xy 201.93 175.26)
+			(xy 193.04 175.26) (xy 201.93 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7516,16 +7512,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 172.72) (xy 200.66 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b0f57a3-b7a3-4fa3-94e0-5b335059f23d")
-	)
-	(wire
-		(pts
 			(xy 238.76 85.09) (xy 251.46 85.09)
 		)
 		(stroke
@@ -7756,7 +7742,17 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 226.06) (xy 262.89 226.06)
+			(xy 193.04 149.86) (xy 201.93 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a0d4bd0-bcd7-4063-bdbc-b7064fc9c82f")
+	)
+	(wire
+		(pts
+			(xy 254 226.06) (xy 262.89 226.06)
 		)
 		(stroke
 			(width 0)
@@ -7803,16 +7799,6 @@
 			(type default)
 		)
 		(uuid "4c419f53-a368-46c7-af72-a47d4348f238")
-	)
-	(wire
-		(pts
-			(xy 200.66 147.32) (xy 200.66 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d3a9ee4-44a3-41bc-9f77-7f591f4b83bf")
 	)
 	(wire
 		(pts
@@ -7926,16 +7912,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 200.66) (xy 201.93 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52520faf-e557-4673-8cfd-b92fe4d40c9b")
-	)
-	(wire
-		(pts
 			(xy 208.28 189.23) (xy 208.28 190.5)
 		)
 		(stroke
@@ -7953,6 +7929,16 @@
 			(type default)
 		)
 		(uuid "54e662b2-69ca-4793-a8ba-9e6277cd1e62")
+	)
+	(wire
+		(pts
+			(xy 78.74 185.42) (xy 85.09 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5567c198-43db-41cc-b5c0-59d21412023a")
 	)
 	(wire
 		(pts
@@ -7993,6 +7979,16 @@
 			(type default)
 		)
 		(uuid "58c2b142-c046-405b-8aa7-f79c86404abc")
+	)
+	(wire
+		(pts
+			(xy 252.73 149.86) (xy 261.62 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59311d09-af44-4dbc-9328-22e95908430f")
 	)
 	(wire
 		(pts
@@ -8106,16 +8102,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 226.06) (xy 201.93 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c30f1a6-d82d-4f03-8992-bc5d859ea990")
-	)
-	(wire
-		(pts
 			(xy 127 257.81) (xy 143.51 257.81)
 		)
 		(stroke
@@ -8143,16 +8129,6 @@
 			(type default)
 		)
 		(uuid "5d605a18-7474-4f76-80c4-1cd7facef153")
-	)
-	(wire
-		(pts
-			(xy 261.62 172.72) (xy 261.62 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5daffa97-f103-4aff-83a8-f329ac269710")
 	)
 	(wire
 		(pts
@@ -8214,16 +8190,6 @@
 		)
 		(uuid "61a19000-2577-4971-90de-9334e4004050")
 	)
-	(wire
-		(pts
-			(xy 200.66 198.12) (xy 200.66 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6377298f-055c-4374-8447-293109cd71a5")
-	)
 	(polyline
 		(pts
 			(xy 232.41 138.43) (xy 232.41 281.94)
@@ -8244,6 +8210,16 @@
 			(type default)
 		)
 		(uuid "65df6d00-3cc7-4e05-91ca-74381bddb7dc")
+	)
+	(wire
+		(pts
+			(xy 71.12 185.42) (xy 78.74 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66fe02a4-fd10-4a59-8703-2c29a2b4bf54")
 	)
 	(wire
 		(pts
@@ -8587,6 +8563,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 189.23) (xy 78.74 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c758ecb-10c3-4b80-9af1-9d85e68cf6e6")
+	)
+	(wire
+		(pts
 			(xy 139.7 71.12) (xy 106.68 71.12)
 		)
 		(stroke
@@ -8757,6 +8743,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 189.23) (xy 78.74 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89dd5d15-5578-4ff9-8843-88d26f23544d")
+	)
+	(wire
+		(pts
 			(xy 78.74 227.33) (xy 78.74 231.14)
 		)
 		(stroke
@@ -8774,6 +8770,16 @@
 			(type default)
 		)
 		(uuid "8b37f410-ec2d-420a-94b5-66885750cc1b")
+	)
+	(wire
+		(pts
+			(xy 193.04 200.66) (xy 201.93 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd3f455-0bf7-4738-9a1c-122c8f994411")
 	)
 	(wire
 		(pts
@@ -8927,7 +8933,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 200.66) (xy 262.89 200.66)
+			(xy 254 200.66) (xy 262.89 200.66)
 		)
 		(stroke
 			(width 0)
@@ -9007,16 +9013,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 255.27) (xy 261.62 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cc242cc-3894-402d-a481-25c36cb51c82")
-	)
-	(wire
-		(pts
 			(xy 353.06 85.09) (xy 355.6 85.09)
 		)
 		(stroke
@@ -9077,16 +9073,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 223.52) (xy 200.66 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4d856ec-ff65-4bdf-a296-c6dc7f75b233")
-	)
-	(wire
-		(pts
 			(xy 307.34 140.97) (xy 311.15 140.97)
 		)
 		(stroke
@@ -9094,16 +9080,6 @@
 			(type default)
 		)
 		(uuid "a5155799-8b4d-47f2-b31f-a06268adf62b")
-	)
-	(wire
-		(pts
-			(xy 200.66 255.27) (xy 201.93 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5c9ea7c-b9bb-4d04-94c5-9add08a8f096")
 	)
 	(wire
 		(pts
@@ -9187,16 +9163,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 149.86) (xy 261.62 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aceb2778-4e49-45e9-80d7-5b3034bfb9f2")
-	)
-	(wire
-		(pts
 			(xy 213.36 58.42) (xy 213.36 59.69)
 		)
 		(stroke
@@ -9204,6 +9170,16 @@
 			(type default)
 		)
 		(uuid "ad568f28-b8d8-4eaf-ac1f-55a3b3afdd0d")
+	)
+	(wire
+		(pts
+			(xy 25.4 184.15) (xy 17.78 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9b0e3d-88bd-40bc-ba28-a5b0b5e11e56")
 	)
 	(wire
 		(pts
@@ -9247,16 +9223,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 198.12) (xy 261.62 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1923e3e-648c-4903-9fa2-9368832ad409")
-	)
-	(wire
-		(pts
 			(xy 322.58 241.3) (xy 322.58 243.84)
 		)
 		(stroke
@@ -9264,16 +9230,6 @@
 			(type default)
 		)
 		(uuid "b1b7ba6e-ae2c-4bbc-bf3b-4a2441ee7bf1")
-	)
-	(wire
-		(pts
-			(xy 260.35 147.32) (xy 260.35 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b210c297-5843-4ac2-ac80-fcea78f8fda0")
 	)
 	(wire
 		(pts
@@ -9387,16 +9343,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 149.86) (xy 201.93 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba451b67-7ca7-41ce-9c5b-6faebaefb382")
-	)
-	(wire
-		(pts
 			(xy 40.64 125.73) (xy 54.61 125.73)
 		)
 		(stroke
@@ -9454,16 +9400,6 @@
 			(type default)
 		)
 		(uuid "bc5a1f9b-5b8b-4e28-970d-2ca09a9a9704")
-	)
-	(wire
-		(pts
-			(xy 261.62 175.26) (xy 262.89 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd2aa4fe-e8d6-4de0-948b-8fa800d4ca29")
 	)
 	(wire
 		(pts
@@ -9687,6 +9623,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 187.96) (xy 25.4 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8f2720a-d3ba-44e2-8bbe-74c1b6b0f2a8")
+	)
+	(wire
+		(pts
 			(xy 121.92 115.57) (xy 143.51 115.57)
 		)
 		(stroke
@@ -9714,6 +9660,16 @@
 			(type default)
 		)
 		(uuid "cb34d97e-1025-432f-bb2c-44b15f02a393")
+	)
+	(wire
+		(pts
+			(xy 252.73 255.27) (xy 261.62 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4c2d0a-cf28-47ac-a101-6454615fb175")
 	)
 	(wire
 		(pts
@@ -9977,16 +9933,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 252.73) (xy 200.66 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e234e81e-d307-4a03-be0d-fca469efb371")
-	)
-	(wire
-		(pts
 			(xy 127 238.76) (xy 143.51 238.76)
 		)
 		(stroke
@@ -10034,6 +9980,16 @@
 			(type default)
 		)
 		(uuid "e569be4f-eabe-4e1d-9c2f-750e8f75ff87")
+	)
+	(wire
+		(pts
+			(xy 254 175.26) (xy 262.89 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b6e8d3-83cd-429b-81a3-a874a2961dc3")
 	)
 	(wire
 		(pts
@@ -10207,6 +10163,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 226.06) (xy 201.93 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f52d4975-0955-45ff-bca8-908c19012227")
+	)
+	(wire
+		(pts
 			(xy 40.64 128.27) (xy 54.61 128.27)
 		)
 		(stroke
@@ -10304,6 +10270,16 @@
 			(type default)
 		)
 		(uuid "ff2b2c85-97d7-4b50-a719-f69d220786d7")
+	)
+	(wire
+		(pts
+			(xy 193.04 255.27) (xy 201.93 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff77c534-0ba0-48ac-8d52-b97c48520ee3")
 	)
 	(label "RX0"
 		(at 251.46 85.09 0)
@@ -10513,6 +10489,16 @@
 		)
 		(uuid "2b7c46a4-a984-4bc4-a424-5109df264b86")
 	)
+	(label "12V_INV"
+		(at 254 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b92d536-c58c-4691-a3c7-36358aaf8bda")
+	)
 	(label "Pzz"
 		(at 139.7 48.26 180)
 		(effects
@@ -10596,6 +10582,16 @@
 			(justify right bottom)
 		)
 		(uuid "3e9d6dbb-0f57-4a0e-a70c-17d47eae9bd2")
+	)
+	(label "12V_INV"
+		(at 252.73 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fbf4c8c-4abb-4362-8420-0157a1f3d952")
 	)
 	(label "PWM_NXP1"
 		(at 284.48 66.04 0)
@@ -10781,6 +10777,36 @@
 		)
 		(uuid "6bef4f75-d021-4a45-8086-99547873ec01")
 	)
+	(label "12V_INV"
+		(at 252.73 255.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d166f18-a0c9-47d2-ab1a-322576cd2e93")
+	)
+	(label "12V_INV"
+		(at 254 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "773ace7b-ce21-4b12-93dd-eac6d1c1cf7a")
+	)
+	(label "12V_INV"
+		(at 17.78 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77ee2bbd-ebb8-4cdb-94e2-0ec32b752d14")
+	)
 	(label "TX0"
 		(at 139.7 38.1 180)
 		(effects
@@ -10863,6 +10889,16 @@
 		)
 		(uuid "8497a756-6578-4b4e-9325-a396f5c2ec95")
 	)
+	(label "12V_INV"
+		(at 193.04 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8650ab86-45fa-4f84-858d-822db3676a28")
+	)
 	(label "NXP_BRK02"
 		(at 143.51 95.25 180)
 		(effects
@@ -10912,6 +10948,16 @@
 			(justify right bottom)
 		)
 		(uuid "8e07aae8-c536-4219-913a-64613305b327")
+	)
+	(label "12V_INV"
+		(at 193.04 255.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e5e5c83-d727-4c9c-878f-c16ae5b86e1b")
 	)
 	(label "TPS2"
 		(at 312.42 194.31 0)
@@ -11023,6 +11069,16 @@
 		)
 		(uuid "aa64184e-3b44-408c-8856-fca55bc64f84")
 	)
+	(label "12V_INV"
+		(at 71.12 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab183454-28a6-44cd-855a-7b36a576a582")
+	)
 	(label "FWD1"
 		(at 17.78 208.28 0)
 		(effects
@@ -11072,6 +11128,16 @@
 			(justify left bottom)
 		)
 		(uuid "b87f132b-a9ea-474d-b819-1226ce085bb4")
+	)
+	(label "12V_INV"
+		(at 193.04 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb0594f5-91d3-4489-8f7c-a8088e7c496c")
 	)
 	(label "CANL02"
 		(at 176.53 80.01 0)
@@ -11239,6 +11305,26 @@
 		)
 		(uuid "f4deadd0-79f8-4504-b6d7-5dab0422de64")
 	)
+	(label "12V_INV"
+		(at 254 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f541a821-ddfa-42db-b48a-692c88d060b6")
+	)
+	(label "12V_INV"
+		(at 193.04 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f93eb788-1e5d-4b5a-bb18-51a5b7d680ce")
+	)
 	(label "ECO1"
 		(at 17.78 199.39 0)
 		(effects
@@ -11248,6 +11334,16 @@
 			(justify left bottom)
 		)
 		(uuid "fa59940d-ebcd-45a4-9de0-19ad8dac62ee")
+	)
+	(label "12V_INV"
+		(at 193.04 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd7041ef-f96a-4eb1-8086-fadc44056853")
 	)
 	(label "NXP_ECO02"
 		(at 242.57 184.15 0)
@@ -13677,83 +13773,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 200.66 223.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "23683b3e-cf5e-429d-84e2-f322124ec9d1")
-		(property "Reference" "#PWR024"
-			(at 200.66 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 200.406 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 200.66 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "884bbc18-9abc-4046-8410-daa1af431b99")
-		)
-		(instances
-			(project "VCUinvertor"
-				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 208.28 215.9 0)
 		(unit 1)
@@ -14303,7 +14322,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 200.66 147.32 0)
+		(at 127 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14311,9 +14330,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2e8c0943-bc00-4fc0-8e6a-8452ced1cd00")
-		(property "Reference" "#PWR016"
-			(at 200.66 151.13 0)
+		(uuid "2d924d33-acd3-419f-b1a0-97d178e3166c")
+		(property "Reference" "#PWR048"
+			(at 127 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14323,18 +14342,19 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
-			(at 200.406 143.51 0)
+		(property "Value" "BAT+"
+			(at 125.222 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 147.32 0)
+			(at 127 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14345,7 +14365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 147.32 0)
+			(at 127 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14356,7 +14376,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 200.66 147.32 0)
+			(at 127 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14367,12 +14387,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "450e0697-6fcd-460f-82a6-8ca99ed7cc7e")
+			(uuid "62ada33e-613d-4a9f-b2bf-d7c67e53cf60")
 		)
 		(instances
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "#PWR016")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -14625,84 +14645,6 @@
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 127 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3536b748-c3c2-4f99-a763-c070546ce7fa")
-		(property "Reference" "#PWR01"
-			(at 127 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 127 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 127 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b44ecbd-d96c-427c-82aa-4a60e4b431c0")
-		)
-		(instances
-			(project "VCUinvertor"
-				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -16564,83 +16506,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 307.34 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "558eee9d-884b-455d-997c-9d6a2298d0d8")
-		(property "Reference" "#PWR032"
-			(at 307.34 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 307.34 135.636 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.34 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 307.34 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cfe894bb-197f-47e5-ae07-5380cba70983")
-		)
-		(instances
-			(project "VCUinvertor"
-				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 269.24 190.5 0)
 		(unit 1)
@@ -17035,83 +16900,6 @@
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
 					(reference "JO35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 260.35 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5faf3831-12d4-4a2e-bc75-da16c4129dd7")
-		(property "Reference" "#PWR066"
-			(at 260.35 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 260.096 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 260.35 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "40dfbbf7-818b-4c71-8a88-109e6a1cfb18")
-		)
-		(instances
-			(project "VCUinvertor"
-				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -17783,83 +17571,6 @@
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
 					(reference "JO10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 200.66 198.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6a1d909e-e0b0-4c66-921b-47c4442eafb5")
-		(property "Reference" "#PWR022"
-			(at 200.66 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 200.406 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 200.66 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "982c953e-c118-463c-974f-742a2c58ed01")
-		)
-		(instances
-			(project "VCUinvertor"
-				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -19129,83 +18840,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 200.66 252.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "84867fd6-2d77-48bd-90e2-5d32abbaed16")
-		(property "Reference" "#PWR026"
-			(at 200.66 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 200.406 248.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 252.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 252.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 200.66 252.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e8b4536f-d83e-44ce-bb77-9a4f61fcd6b7")
-		)
-		(instances
-			(project "VCUinvertor"
-				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x10_Odd_Even")
 		(at 114.3 48.26 0)
 		(unit 1)
@@ -19421,83 +19055,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 200.66 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "87a3ad23-b843-49cb-9d4e-365b6c8e14fc")
-		(property "Reference" "#PWR020"
-			(at 200.66 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 200.406 168.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 200.66 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "74f09592-5ac9-461e-9410-f918ab59c0c1")
-		)
-		(instances
-			(project "VCUinvertor"
-				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 256.54 264.16 90)
 		(unit 1)
@@ -19573,83 +19130,6 @@
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 261.62 223.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8a4afdcf-8308-4e3e-a61c-5007176d18af")
-		(property "Reference" "#PWR036"
-			(at 261.62 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 261.366 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 261.62 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5b53dc1c-5488-4ac1-8652-bfb0f805003b")
-		)
-		(instances
-			(project "VCUinvertor"
-				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -19907,7 +19387,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "91bf8720-b89a-4538-9688-ab99dd4b6c19")
 		(property "Reference" "#PWR042"
 			(at 53.34 48.26 0)
@@ -19920,14 +19399,15 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
-			(at 53.34 39.37 0)
+		(property "Value" "BAT+"
+			(at 51.562 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -21094,83 +20574,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 261.62 198.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "adc458bc-4b92-4784-ae9d-989e2c178494")
-		(property "Reference" "#PWR030"
-			(at 261.62 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 261.366 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 261.62 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3a37e734-5df9-402a-b51e-ef3f8b1a4430")
-		)
-		(instances
-			(project "VCUinvertor"
-				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 137.16 210.82 0)
 		(unit 1)
@@ -22058,83 +21461,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 260.35 252.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "be1e1afd-f5f6-418e-848d-34898837b80e")
-		(property "Reference" "#PWR038"
-			(at 260.35 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 260.096 248.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 252.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 252.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 260.35 252.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "24a23df2-7242-408d-9259-62405eb29a55")
-		)
-		(instances
-			(project "VCUinvertor"
-				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 256.54 158.75 90)
 		(unit 1)
@@ -22695,6 +22021,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 307.34 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c89e6011-374c-4e40-8bde-e3d56c776539")
+		(property "Reference" "#PWR050"
+			(at 307.34 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT+"
+			(at 305.562 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 307.34 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a534fc50-7a27-4eb4-b6cc-9d6c4b822124")
+		)
+		(instances
+			(project "VCUinvertor"
+				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 137.16 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd0deeef-f254-40c0-a040-8814bd616dbb")
+		(property "Reference" "#PWR051"
+			(at 137.16 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT+"
+			(at 135.382 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 137.16 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9290878d-2aa6-4238-9048-7d2c406f95e7")
+		)
+		(instances
+			(project "VCUinvertor"
+				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 387.35 148.59 0)
 		(unit 1)
@@ -22782,7 +22264,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce11f21e-4286-4571-ae49-e4413bc1e352")
-		(property "Reference" "12V1"
+		(property "Reference" "VCC_BAT1"
 			(at 138.684 158.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22844,7 +22326,7 @@
 		(instances
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "12V1")
+					(reference "VCC_BAT1")
 					(unit 1)
 				)
 			)
@@ -23003,84 +22485,6 @@
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 137.16 199.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d09955b5-cdcc-4d8b-84d2-ba0b7695b524")
-		(property "Reference" "#PWR010"
-			(at 137.16 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 137.16 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 137.16 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "63482461-3a4b-4dc0-8bcc-cb147c8e3e01")
-		)
-		(instances
-			(project "VCUinvertor"
-				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -23491,83 +22895,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 261.62 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d92f18a5-c11f-493b-8f46-e531fc4b5363")
-		(property "Reference" "#PWR028"
-			(at 261.62 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 261.366 168.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 261.62 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6422a18e-aaba-41e4-a852-145712c11a75")
-		)
-		(instances
-			(project "VCUinvertor"
-				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x08_Odd_Even")
 		(at 114.3 81.28 0)
 		(unit 1)
@@ -23922,84 +23249,6 @@
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 388.62 217.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfbf3f72-a8b7-4fcb-b784-e9c46aecf6b0")
-		(property "Reference" "#PWR047"
-			(at 388.62 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 388.62 212.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 388.62 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 388.62 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "880fbbe4-1fca-4c2f-bb88-25d98e7c19a5")
-		)
-		(instances
-			(project "VCUinvertor"
-				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -24888,6 +24137,84 @@
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
 					(reference "JO18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 388.62 217.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6442a41-e9cd-4c5c-8f29-95100276d79e")
+		(property "Reference" "#PWR047"
+			(at 388.62 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT+"
+			(at 386.842 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 388.62 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfdb4a81-e1c4-4790-80f4-c19c1eaffa1b")
+		)
+		(instances
+			(project "VCUinvertor"
+				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
