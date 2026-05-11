@@ -32,6 +32,7 @@
     "visible_items": [
       "vias",
       "footprint_text",
+      "footprint_anchors",
       "ratsnest",
       "grid",
       "footprints_front",
@@ -46,8 +47,10 @@
       "zones",
       "drc_warnings",
       "drc_exclusions",
+      "locked_item_shadows",
       "conflict_shadows",
       "shapes",
+      "board_outline_area",
       "ly_points"
     ],
     "visible_layers": "ffffffff_ffffffff_ffffffff_77ff7ff5",

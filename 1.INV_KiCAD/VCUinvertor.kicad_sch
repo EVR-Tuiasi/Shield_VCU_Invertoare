@@ -6403,16 +6403,6 @@
 		)
 		(uuid "f3f19aec-8836-477d-a329-341aaddc7643")
 	)
-	(text "1. Switch The switch to NO from NC --> From pin 2 to pin 4\n2.Move the connectors of the TPS OUT1 & 2"
-		(exclude_from_sim no)
-		(at 460.756 238.506 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fa781102-a6ba-4e0d-a092-5ee22c36c4e0")
-	)
 	(junction
 		(at 203.2 82.55)
 		(diameter 0)
@@ -7415,16 +7405,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 73.66) (xy 107.95 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c31a4ba-b4c4-41c5-89fa-0c9fe94eee7f")
-	)
-	(wire
-		(pts
 			(xy 107.95 102.87) (xy 143.51 102.87)
 		)
 		(stroke
@@ -7652,6 +7632,16 @@
 			(type default)
 		)
 		(uuid "2c4da361-3001-4753-885a-97070a7c2700")
+	)
+	(wire
+		(pts
+			(xy 121.92 80.01) (xy 123.19 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca3062c-dab4-4046-9e86-8cbf037fcf0b")
 	)
 	(wire
 		(pts
@@ -9686,16 +9676,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 80.01) (xy 123.19 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b96d797c-4f2e-4c75-825d-a91869c14d76")
-	)
-	(wire
-		(pts
 			(xy 384.81 219.71) (xy 388.62 219.71)
 		)
 		(stroke
@@ -10623,6 +10603,16 @@
 			(type default)
 		)
 		(uuid "fcdd03f6-e95e-4c9b-9bb2-78ea5ccbf2bc")
+	)
+	(wire
+		(pts
+			(xy 107.95 73.66) (xy 123.19 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7037b8-6623-486a-a069-d74c3bd27df0")
 	)
 	(wire
 		(pts
@@ -11774,7 +11764,7 @@
 	)
 	(global_label "NXP_TPSOUT02"
 		(shape input)
-		(at 123.19 80.01 0)
+		(at 123.19 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11784,7 +11774,7 @@
 		)
 		(uuid "28c97059-1983-4280-9cdc-bccd6c503ed5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.4475 80.01 0)
+			(at 140.4475 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11846,7 +11836,7 @@
 	)
 	(global_label "NXP_TPSOUT01"
 		(shape input)
-		(at 123.19 73.66 0)
+		(at 123.19 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11856,7 +11846,7 @@
 		)
 		(uuid "7492e9fa-69c5-4622-9b10-1a70d3d50cf1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.4475 73.66 0)
+			(at 140.4475 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21397,7 +21387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 318.77 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -25096,7 +25086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 318.77 207.01 0)
 			(hide yes)
 			(show_name no)
