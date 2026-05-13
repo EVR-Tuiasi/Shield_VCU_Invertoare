@@ -4837,7 +4837,7 @@
 		(descr "Soldered wire connection, for a single 0.75 mm² wire, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.75sqmm")
 		(property "Reference" "JO27"
-			(at 2.7 -0.05 90)
+			(at 3.8 -0.05 180)
 			(layer "F.SilkS")
 			(uuid "961aadc5-f37d-445d-9065-86ea85eabd32")
 			(effects
@@ -10906,7 +10906,7 @@
 		(descr "Soldered wire connection, for a single 0.75 mm² wire, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.75sqmm")
 		(property "Reference" "JO8"
-			(at 2.9 0 90)
+			(at 3.4 0 180)
 			(layer "F.SilkS")
 			(uuid "e1780aab-4fd2-40ba-bb43-72f1b284a3a3")
 			(effects
@@ -16328,7 +16328,7 @@
 		(descr "Soldered wire connection, for a single 0.75 mm² wire, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.75sqmm")
 		(property "Reference" "JO28"
-			(at 0 -2.525 180)
+			(at 3.8 0.05 180)
 			(layer "F.SilkS")
 			(uuid "498f2797-5148-4eeb-a766-da5502719b43")
 			(effects
@@ -17863,7 +17863,7 @@
 		(descr "Soldered wire connection, for a single 0.75 mm² wire, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.75sqmm")
 		(property "Reference" "JO7"
-			(at 0.025 2.475 180)
+			(at 3.4 0 180)
 			(layer "F.SilkS")
 			(uuid "fc5b93b8-d17c-4594-a872-97ba0ec483aa")
 			(effects
@@ -30788,30 +30788,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Not used"
-		(at 143.22551 90.81774 90)
-		(layer "F.Paste")
-		(uuid "a78449b4-cb8e-479b-bca2-cdd8f7825757")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Not used"
-		(at 143.75051 112.66774 90)
-		(layer "F.Paste")
-		(uuid "e70fd5f4-addd-460b-873e-56c15cf263bc")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "H_Brk (Yellowish)"
 		(at 134.531348 127.880163 0)
 		(layer "B.Paste")
@@ -31434,6 +31410,14 @@
 		(uuid "8840d080-e2f4-4cf3-85ad-ac1c516ddccb")
 	)
 	(segment
+		(start 129.30051 60.04274)
+		(end 129.45051 59.89274)
+		(width 0.7)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "8fb3eaea-a8c8-4cec-9fcd-88621e01a48c")
+	)
+	(segment
 		(start 119.50051 82.53024)
 		(end 119.41301 82.53024)
 		(width 0.2)
@@ -31602,14 +31586,6 @@
 		(uuid "c176ee5b-bdd0-456b-bf94-d3ab0e766385")
 	)
 	(segment
-		(start 129.15051 62.59274)
-		(end 129.30051 62.44274)
-		(width 0.7)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "c3d25bad-faf9-4af7-bbb2-947cf4c0411a")
-	)
-	(segment
 		(start 128.775 151.99325)
 		(end 128.775 151.96774)
 		(width 0.2)
@@ -31624,14 +31600,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "c7a7ac70-8ebc-4916-8140-49edfe5d264d")
-	)
-	(segment
-		(start 129.30051 60.04274)
-		(end 129.45051 59.89274)
-		(width 0.7)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "c7e8eee2-2601-46e3-9f88-1e6ce393035f")
 	)
 	(segment
 		(start 104.41977 75.704499)
@@ -31706,6 +31674,14 @@
 		(uuid "d920194f-28c4-4c8c-beec-95a4d5871699")
 	)
 	(segment
+		(start 129.30051 62.44274)
+		(end 129.30051 60.04274)
+		(width 0.7)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "dc725167-3cdc-4e1d-88aa-da0d615248a5")
+	)
+	(segment
 		(start 125.40051 104.39274)
 		(end 125.40051 104.14274)
 		(width 0.2)
@@ -31728,14 +31704,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "e61154fe-d3f7-4b3e-b3a3-0ffd39d81f61")
-	)
-	(segment
-		(start 129.30051 62.44274)
-		(end 129.30051 60.04274)
-		(width 0.7)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "e647ad09-cf49-4a8f-b0f2-9ad037379178")
 	)
 	(segment
 		(start 124.28801 113.89274)
@@ -32036,7 +32004,7 @@
 		(uuid "a240fe53-14e1-4310-8f42-d784fa3d6203")
 	)
 	(via
-		(at 129.15051 62.59274)
+		(at 129.30051 62.44274)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
