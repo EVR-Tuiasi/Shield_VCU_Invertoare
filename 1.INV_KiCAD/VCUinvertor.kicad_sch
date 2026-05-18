@@ -6044,7 +6044,7 @@
 		(uuid "5d05a798-b116-4932-b151-f129ec1a2504")
 	)
 	(rectangle
-		(start 83.82 170.18)
+		(start 83.82 163.83)
 		(end 92.71 229.87)
 		(stroke
 			(width 0)
@@ -6149,8 +6149,8 @@
 		(uuid "ce5c8c46-3f61-4ad8-9161-fbe683b27840")
 	)
 	(rectangle
-		(start 31.75 170.18)
-		(end 40.64 229.87)
+		(start 30.48 163.83)
+		(end 39.37 229.87)
 		(stroke
 			(width 0)
 			(type solid)
@@ -6278,7 +6278,7 @@
 	)
 	(text "Invertor 1\n"
 		(exclude_from_sim no)
-		(at 38.862 155.702 0)
+		(at 37.592 155.702 0)
 		(effects
 			(font
 				(size 5 5)
@@ -6302,9 +6302,9 @@
 		)
 		(uuid "ab7d75d4-1798-496a-a25d-a2e7e099bcd3")
 	)
-	(text "1.  PWR(7): Controller power supply (input). ※Pink\n2.  REV_SW(14): Reverse switch input. ※Orange\n3.  GND(6): Signal return or power supply return. ※Black\n4.  FWD(12): Forward switch or can be enabled as High speed switch function. ※White\n5.  Throttle(3): Throttle analog input, 0-5V. ※ Green \n6.  Foot_SW(15): Throttle switch input. ※Gray \n7.  12V(11): 12V Supply. ※Red\n8.  12V (25): brake switch. ※Yellowish\n9.  ECO(22): Low speed switch. ※Blue\n10. CAN-H(33): (Optional function). ※Greenish\n11. CAN-L(34): (Optional function). ※Brownish\n12. GND(20): Signal return. ※Black\n13. 5V(4): 5V Supply, <40mA. ※Purple\n14. Brake_AN(2): Brake variable regen or Boost function. ※Brown\n15. 12V(11): 12V Supply. ※Red\n16. GND(21): Signal return. ※Black\n"
+	(text "1.  PWR(7): Controller power supply (input). ※Pink\n2.  REV_SW(14): Reverse switch input. ※Orange\n3.  GND(6): Signal return or power supply return. ※Black\n4.  FWD(12): Forward switch or can be enabled as High speed switch function. ※White\n5.  Throttle(3): Throttle analog input, 0-5V. ※ Green \n6.  Foot_SW(15): Throttle switch input. ※Gray \n7.  12V(11): 12V Supply. ※Red\n8.  12V (25): brake switch. ※Yellowish\n9.  ECO(22): Low speed switch. ※Blue\n10. CAN-H(33): (Optional function). ※Greenish\n11. CAN-L(34): (Optional function). ※Brownish\n12. GND(20): Signal return. ※Black\n13. 5V(4): 5V Supply, <40mA. ※Purple\n14. Brake_AN(2): Brake variable regen or Boost function. ※Brown\n15. 12V(11): 12V Supply. ※Red\n16. GND(21): Signal return. ※Black\n16. Meter(8): Copied signal of hall-A sensor. ※Dark Gray\n"
 		(exclude_from_sim no)
-		(at 18.034 265.176 0)
+		(at 17.78 262.636 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6329,7 +6329,7 @@
 	)
 	(text "Invertor 2"
 		(exclude_from_sim no)
-		(at 93.472 155.702 0)
+		(at 92.202 155.702 0)
 		(effects
 			(font
 				(size 5 5)
@@ -6390,7 +6390,7 @@
 		)
 		(uuid "ed7c0deb-e9ec-4052-903a-8c7bdb2771d4")
 	)
-	(text "Invertor pin functionality"
+	(text "Inverter pin definition"
 		(exclude_from_sim no)
 		(at 44.704 240.284 0)
 		(effects
@@ -6422,7 +6422,7 @@
 		(uuid "0810f3c0-fbf3-4582-be27-8f7ee29b6952")
 	)
 	(junction
-		(at 78.74 185.42)
+		(at 78.74 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "085ca5fb-de8b-47e5-b2ae-d8e8f5596daf")
@@ -6434,7 +6434,7 @@
 		(uuid "0984d629-fa17-40fa-a584-5e3285bfac7c")
 	)
 	(junction
-		(at 25.4 184.15)
+		(at 24.13 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1839db7b-5107-4c91-9ad1-f1aa54ff3c57")
@@ -6450,6 +6450,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "272b3b77-fdca-4582-aa6a-3ba0fb932563")
+	)
+	(junction
+		(at 259.08 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2abff21a-7f7e-4775-9b12-592eea5e3beb")
+	)
+	(junction
+		(at 269.24 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b8d3537-fa69-4f42-a5f1-465c6c676a66")
 	)
 	(junction
 		(at 269.24 228.6)
@@ -6476,10 +6488,22 @@
 		(uuid "3b1ea1d8-d5fa-4086-8e00-c67d5e294bea")
 	)
 	(junction
+		(at 198.12 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bcdce36-6231-40d8-ab48-a99379896c04")
+	)
+	(junction
 		(at 339.09 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d2352e6-d2f3-47b5-9428-383c129d4dcf")
+	)
+	(junction
+		(at 269.24 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41a87c49-5f5a-49ce-b465-7df59c63ef19")
 	)
 	(junction
 		(at 311.15 151.13)
@@ -6524,10 +6548,22 @@
 		(uuid "57c212b7-e94c-4e5f-b8d5-2d743744f79a")
 	)
 	(junction
-		(at 78.74 227.33)
+		(at 208.28 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a8fcddc-f064-463d-82ca-c7729034a950")
+	)
+	(junction
+		(at 78.74 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5aa8f2fa-751d-4b57-88a5-8806039f416b")
+	)
+	(junction
+		(at 208.28 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f5831d7-3488-402a-ab08-9abea3583e0a")
 	)
 	(junction
 		(at 208.28 152.4)
@@ -6572,6 +6608,18 @@
 		(uuid "744ec484-440d-492e-990c-0646c513d478")
 	)
 	(junction
+		(at 198.12 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75cdc290-be31-4701-bf01-d938a54332e9")
+	)
+	(junction
+		(at 267.97 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7691b8f4-4623-4950-b715-4dbae6f1b547")
+	)
+	(junction
 		(at 318.77 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6590,10 +6638,34 @@
 		(uuid "7a4a7c75-33f8-4ead-b962-3da332db7a9e")
 	)
 	(junction
+		(at 208.28 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "816d4ee8-cb20-4f65-8c58-dfd869d94424")
+	)
+	(junction
+		(at 257.81 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8830d358-00cb-4110-be70-24bbffb1b46b")
+	)
+	(junction
 		(at 361.95 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a430d7b-4c13-4be5-9149-8e476b55cac1")
+	)
+	(junction
+		(at 208.28 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c3ac0fc-46b8-43ff-a346-af2be507de3f")
+	)
+	(junction
+		(at 257.81 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8da2f94e-d72b-423a-8924-33341c5f920e")
 	)
 	(junction
 		(at 318.77 234.95)
@@ -6606,6 +6678,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9681c9d9-b718-4ea3-a59a-3f59d211ccb8")
+	)
+	(junction
+		(at 269.24 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99dd95e4-41a9-4d6e-aa84-9266260c0200")
+	)
+	(junction
+		(at 198.12 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b558c03-b705-4a10-a16c-dd7ca9560914")
+	)
+	(junction
+		(at 259.08 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1c5d971-0a91-4366-ae24-70f31508ee2a")
 	)
 	(junction
 		(at 127 179.07)
@@ -6638,6 +6728,18 @@
 		(uuid "acb8f224-eafa-4459-932f-5bae842e4529")
 	)
 	(junction
+		(at 198.12 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b06d6f0e-770a-4f68-8ea1-4f81162a698f")
+	)
+	(junction
+		(at 198.12 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b470556b-f2c1-4002-9bbf-4d77a548c8d5")
+	)
+	(junction
 		(at 331.47 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6660,6 +6762,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c065331c-c3d7-43bc-a6ab-2f1993f8018a")
+	)
+	(junction
+		(at 360.68 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1b40670-c835-48d5-9e1c-efcf7d772718")
 	)
 	(junction
 		(at 361.95 87.63)
@@ -6686,10 +6794,22 @@
 		(uuid "cdf391df-ceca-468b-bb13-048457882973")
 	)
 	(junction
+		(at 259.08 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceb1ba8a-acd0-440b-bf4c-f17bca568531")
+	)
+	(junction
 		(at 321.31 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d246166c-6e22-4459-87b5-f4df26d836b6")
+	)
+	(junction
+		(at 349.25 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d76df487-6678-42c2-969f-d2c915741558")
 	)
 	(junction
 		(at 218.44 59.69)
@@ -6698,13 +6818,19 @@
 		(uuid "dab1019a-954b-4c57-83f0-3e76704e2e2b")
 	)
 	(junction
+		(at 208.28 270.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd1f96a6-6637-45a3-8098-ceadd224f3e1")
+	)
+	(junction
 		(at 369.57 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e08e4243-db9f-4d8e-8b26-b36772e3e5af")
 	)
 	(junction
-		(at 26.67 227.33)
+		(at 25.4 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e41f646e-eb12-42f2-bc3d-0fa450e3669a")
@@ -6720,6 +6846,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd06d2a5-888c-4a5a-952d-de03347cb0a5")
+	)
+	(junction
+		(at 267.97 270.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff2f5017-fcd3-4d7a-9619-f894065ea732")
 	)
 	(no_connect
 		(at 121.92 55.88)
@@ -6782,6 +6914,10 @@
 		(uuid "3b9f211c-6c99-48df-90ae-a6a3fedd920e")
 	)
 	(no_connect
+		(at 85.09 224.79)
+		(uuid "3f9dcac0-7e8d-4fb8-a60d-e83ab14ceb0a")
+	)
+	(no_connect
 		(at 54.61 87.63)
 		(uuid "406c7617-9516-44d5-8873-570e2fcf1e26")
 	)
@@ -6796,6 +6932,10 @@
 	(no_connect
 		(at 54.61 115.57)
 		(uuid "426a445a-c437-4d1d-990d-d4c822316736")
+	)
+	(no_connect
+		(at 31.75 226.06)
+		(uuid "431a4b73-8ab7-4e8f-90db-0535226e04ae")
 	)
 	(no_connect
 		(at 109.22 40.64)
@@ -6966,7 +7106,7 @@
 		(uuid "bc7c1a05-dc61-4205-bd07-2f3d5b0f686e")
 	)
 	(no_connect
-		(at 33.02 191.77)
+		(at 31.75 186.69)
 		(uuid "c29da8ac-7a87-4cb4-ba53-e65e5a65e36c")
 	)
 	(no_connect
@@ -7018,7 +7158,7 @@
 		(uuid "e6fedbe5-1f11-4df0-9783-e0ce900c8570")
 	)
 	(no_connect
-		(at 85.09 193.04)
+		(at 85.09 186.69)
 		(uuid "e839ab48-35b2-49fc-a1d3-65d61440e2ee")
 	)
 	(no_connect
@@ -7155,7 +7295,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 227.33) (xy 81.28 227.33)
+			(xy 78.74 220.98) (xy 81.28 220.98)
 		)
 		(stroke
 			(width 0)
@@ -7192,6 +7332,16 @@
 			(type default)
 		)
 		(uuid "0a4b6839-c889-4040-8d94-fa7392e55c18")
+	)
+	(wire
+		(pts
+			(xy 198.12 158.75) (xy 200.66 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4be621-89ec-4bb5-857e-0129b610a9e2")
 	)
 	(wire
 		(pts
@@ -7285,13 +7435,23 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 234.95) (xy 255.27 234.95)
+			(xy 242.57 234.95) (xy 259.08 234.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "125a3939-ffb9-4b78-9ca6-3e12ec6871d1")
+	)
+	(wire
+		(pts
+			(xy 198.12 215.9) (xy 208.28 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e12482-a324-4976-bf7a-692fc601a7ba")
 	)
 	(wire
 		(pts
@@ -7315,16 +7475,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 264.16) (xy 260.35 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14650cf2-912b-4d1d-8685-6ef88c2574c8")
-	)
-	(wire
-		(pts
 			(xy 106.68 64.77) (xy 106.68 55.88)
 		)
 		(stroke
@@ -7335,7 +7485,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 184.15) (xy 25.4 184.15)
+			(xy 31.75 179.07) (xy 24.13 179.07)
 		)
 		(stroke
 			(width 0)
@@ -7355,7 +7505,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 187.96) (xy 25.4 187.96)
+			(xy 27.94 182.88) (xy 24.13 182.88)
 		)
 		(stroke
 			(width 0)
@@ -7372,6 +7522,16 @@
 			(type default)
 		)
 		(uuid "185d7095-c9b6-4a6e-9d19-5de4bfd5bec4")
+	)
+	(wire
+		(pts
+			(xy 198.12 209.55) (xy 200.66 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b28333-44d3-4ff6-a79c-f22a69b349a2")
 	)
 	(wire
 		(pts
@@ -7405,6 +7565,26 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 234.95) (xy 198.12 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a8d034f-d8b2-44bf-be6a-442cb7cad47e")
+	)
+	(wire
+		(pts
+			(xy 259.08 190.5) (xy 269.24 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c76e1f4-a4eb-4a1c-a79a-0d4a45137ec0")
+	)
+	(wire
+		(pts
 			(xy 107.95 102.87) (xy 143.51 102.87)
 		)
 		(stroke
@@ -7415,13 +7595,23 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 173.99) (xy 81.28 173.99)
+			(xy 71.12 167.64) (xy 81.28 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1d5b904d-3936-48e5-b819-08c4726c775a")
+	)
+	(wire
+		(pts
+			(xy 198.12 160.02) (xy 198.12 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dda6775-ed6d-48c0-bf27-29f5212c6fcb")
 	)
 	(wire
 		(pts
@@ -7475,6 +7665,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 270.51) (xy 267.97 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b268b2-c530-4eae-811c-908381fb3a21")
+	)
+	(wire
+		(pts
 			(xy 369.57 74.93) (xy 369.57 80.01)
 		)
 		(stroke
@@ -7525,7 +7725,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 176.53) (xy 33.02 176.53)
+			(xy 16.51 171.45) (xy 31.75 171.45)
 		)
 		(stroke
 			(width 0)
@@ -7535,7 +7735,17 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 264.16) (xy 254 264.16)
+			(xy 257.81 264.16) (xy 260.35 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281c71c0-0369-4ce5-a833-3fd622ef4883")
+	)
+	(wire
+		(pts
+			(xy 241.3 264.16) (xy 257.81 264.16)
 		)
 		(stroke
 			(width 0)
@@ -7595,7 +7805,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 199.39) (xy 33.02 199.39)
+			(xy 16.51 194.31) (xy 31.75 194.31)
 		)
 		(stroke
 			(width 0)
@@ -7605,7 +7815,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 200.66) (xy 85.09 200.66)
+			(xy 71.12 194.31) (xy 85.09 194.31)
 		)
 		(stroke
 			(width 0)
@@ -7655,6 +7865,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 165.1) (xy 267.97 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf85352-e68e-4304-8f03-bd7214d7b926")
+	)
+	(wire
+		(pts
 			(xy 40.64 120.65) (xy 54.61 120.65)
 		)
 		(stroke
@@ -7695,7 +7915,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 223.52) (xy 33.02 223.52)
+			(xy 25.4 218.44) (xy 31.75 218.44)
 		)
 		(stroke
 			(width 0)
@@ -7712,6 +7932,16 @@
 			(type default)
 		)
 		(uuid "2f7671c5-45c8-423f-b606-5e5d268fc7ce")
+	)
+	(wire
+		(pts
+			(xy 349.25 233.68) (xy 360.68 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3027eb13-a616-4d31-bd4a-adb15aa4b795")
 	)
 	(wire
 		(pts
@@ -7755,13 +7985,33 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 204.47) (xy 81.28 204.47)
+			(xy 257.81 264.16) (xy 257.81 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3230e73b-e9ff-4b58-b397-dc11e6642047")
+	)
+	(wire
+		(pts
+			(xy 71.12 198.12) (xy 81.28 198.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3309156d-a7a9-4c96-8bb6-420d1f7f8c65")
+	)
+	(wire
+		(pts
+			(xy 198.12 210.82) (xy 198.12 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331478d9-7f1c-430c-b978-85dc07a36cef")
 	)
 	(wire
 		(pts
@@ -7822,16 +8072,6 @@
 			(type default)
 		)
 		(uuid "38fb5383-7f48-4995-a5ee-44215ed805ef")
-	)
-	(wire
-		(pts
-			(xy 260.35 209.55) (xy 261.62 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a98952a-e538-4a58-bc14-48919ae9477b")
 	)
 	(wire
 		(pts
@@ -7955,7 +8195,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 219.71) (xy 29.21 219.71)
+			(xy 16.51 214.63) (xy 27.94 214.63)
 		)
 		(stroke
 			(width 0)
@@ -7995,7 +8235,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 203.2) (xy 29.21 203.2)
+			(xy 16.51 198.12) (xy 27.94 198.12)
 		)
 		(stroke
 			(width 0)
@@ -8175,7 +8415,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 172.72) (xy 29.21 172.72)
+			(xy 16.51 167.64) (xy 27.94 167.64)
 		)
 		(stroke
 			(width 0)
@@ -8285,7 +8525,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 185.42) (xy 85.09 185.42)
+			(xy 78.74 179.07) (xy 85.09 179.07)
 		)
 		(stroke
 			(width 0)
@@ -8305,7 +8545,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 158.75) (xy 254 158.75)
+			(xy 241.3 158.75) (xy 257.81 158.75)
 		)
 		(stroke
 			(width 0)
@@ -8322,16 +8562,6 @@
 			(type default)
 		)
 		(uuid "5835a0ac-1f8b-46fa-b6aa-32aa6fefbad2")
-	)
-	(wire
-		(pts
-			(xy 199.39 184.15) (xy 200.66 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58c2b142-c046-405b-8aa7-f79c86404abc")
 	)
 	(wire
 		(pts
@@ -8405,7 +8635,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 158.75) (xy 194.31 158.75)
+			(xy 181.61 158.75) (xy 198.12 158.75)
 		)
 		(stroke
 			(width 0)
@@ -8465,6 +8695,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 234.95) (xy 259.08 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c7f564d-4b74-4ea2-a9b3-3aa87a062987")
+	)
+	(wire
+		(pts
 			(xy 208.28 175.26) (xy 208.28 177.8)
 		)
 		(stroke
@@ -8485,7 +8725,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 215.9) (xy 33.02 215.9)
+			(xy 16.51 210.82) (xy 31.75 210.82)
 		)
 		(stroke
 			(width 0)
@@ -8525,7 +8765,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 264.16) (xy 194.31 264.16)
+			(xy 257.81 158.75) (xy 260.35 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "615cb169-38c9-4655-b1d8-20f60520a221")
+	)
+	(wire
+		(pts
+			(xy 181.61 264.16) (xy 198.12 264.16)
 		)
 		(stroke
 			(width 0)
@@ -8543,6 +8793,26 @@
 		)
 		(uuid "61a19000-2577-4971-90de-9334e4004050")
 	)
+	(wire
+		(pts
+			(xy 259.08 241.3) (xy 269.24 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b28e8e-b999-4f79-86b3-701114aa65bf")
+	)
+	(wire
+		(pts
+			(xy 349.25 240.03) (xy 349.25 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6437e79f-a4b0-4bed-bafd-f65d0fa3a800")
+	)
 	(polyline
 		(pts
 			(xy 232.41 138.43) (xy 232.41 281.94)
@@ -8556,13 +8826,23 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 185.42) (xy 78.74 185.42)
+			(xy 71.12 179.07) (xy 78.74 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "66fe02a4-fd10-4a59-8703-2c29a2b4bf54")
+	)
+	(wire
+		(pts
+			(xy 198.12 190.5) (xy 208.28 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68093985-c8fa-49bb-acf7-2c594ae9cad9")
 	)
 	(wire
 		(pts
@@ -8586,7 +8866,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 180.34) (xy 29.21 180.34)
+			(xy 16.51 175.26) (xy 27.94 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8613,6 +8893,16 @@
 			(type default)
 		)
 		(uuid "6a4af2c7-4681-4931-9418-6b59a507601b")
+	)
+	(wire
+		(pts
+			(xy 259.08 209.55) (xy 259.08 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b4ddfea-3987-4771-a428-738826cfd11e")
 	)
 	(wire
 		(pts
@@ -8656,6 +8946,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 234.95) (xy 261.62 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e395bf7-ee6f-4e14-a8f2-9e2fa708a64d")
+	)
+	(wire
+		(pts
 			(xy 71.12 50.8) (xy 67.31 50.8)
 		)
 		(stroke
@@ -8666,7 +8966,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 184.15) (xy 194.31 184.15)
+			(xy 181.61 184.15) (xy 198.12 184.15)
 		)
 		(stroke
 			(width 0)
@@ -8716,6 +9016,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 184.15) (xy 200.66 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a72fad-9444-4cae-8ccd-98b859ad18d4")
+	)
+	(wire
+		(pts
 			(xy 53.34 50.8) (xy 53.34 44.45)
 		)
 		(stroke
@@ -8756,17 +9066,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 234.95) (xy 200.66 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "757e5875-871e-44bb-98b4-9791e1e5f872")
-	)
-	(wire
-		(pts
-			(xy 71.12 196.85) (xy 81.28 196.85)
+			(xy 71.12 190.5) (xy 81.28 190.5)
 		)
 		(stroke
 			(width 0)
@@ -8776,7 +9076,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 223.52) (xy 85.09 223.52)
+			(xy 78.74 217.17) (xy 85.09 217.17)
 		)
 		(stroke
 			(width 0)
@@ -8823,6 +9123,16 @@
 			(type default)
 		)
 		(uuid "774ebb6b-bc0b-4c5d-952f-7efa47509ffb")
+	)
+	(wire
+		(pts
+			(xy 259.08 184.15) (xy 259.08 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7768aadc-a653-40f5-8a3c-efcb5a731164")
 	)
 	(wire
 		(pts
@@ -8896,7 +9206,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 189.23) (xy 78.74 185.42)
+			(xy 78.74 182.88) (xy 78.74 179.07)
 		)
 		(stroke
 			(width 0)
@@ -8916,7 +9226,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 212.09) (xy 81.28 212.09)
+			(xy 71.12 205.74) (xy 81.28 205.74)
 		)
 		(stroke
 			(width 0)
@@ -9066,7 +9376,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 177.8) (xy 85.09 177.8)
+			(xy 71.12 171.45) (xy 85.09 171.45)
 		)
 		(stroke
 			(width 0)
@@ -9076,7 +9386,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 189.23) (xy 78.74 189.23)
+			(xy 198.12 241.3) (xy 208.28 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899a0439-473f-4298-bca9-09d844de06b7")
+	)
+	(wire
+		(pts
+			(xy 81.28 182.88) (xy 78.74 182.88)
 		)
 		(stroke
 			(width 0)
@@ -9086,7 +9406,17 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 227.33) (xy 78.74 231.14)
+			(xy 259.08 215.9) (xy 269.24 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a026ae0-2bed-461e-a510-fc4246741079")
+	)
+	(wire
+		(pts
+			(xy 78.74 220.98) (xy 78.74 224.79)
 		)
 		(stroke
 			(width 0)
@@ -9126,7 +9456,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 219.71) (xy 81.28 219.71)
+			(xy 71.12 213.36) (xy 81.28 213.36)
 		)
 		(stroke
 			(width 0)
@@ -9186,7 +9516,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 227.33) (xy 26.67 229.87)
+			(xy 25.4 222.25) (xy 25.4 224.79)
 		)
 		(stroke
 			(width 0)
@@ -9256,7 +9586,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 181.61) (xy 81.28 181.61)
+			(xy 71.12 175.26) (xy 81.28 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9306,7 +9636,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 223.52) (xy 78.74 227.33)
+			(xy 78.74 217.17) (xy 78.74 220.98)
 		)
 		(stroke
 			(width 0)
@@ -9436,6 +9766,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 184.15) (xy 261.62 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a68a64d4-af39-4cb7-8610-003daa7fc040")
+	)
+	(wire
+		(pts
 			(xy 269.24 203.2) (xy 280.67 203.2)
 		)
 		(stroke
@@ -9456,7 +9796,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 212.09) (xy 29.21 212.09)
+			(xy 16.51 207.01) (xy 27.94 207.01)
 		)
 		(stroke
 			(width 0)
@@ -9486,7 +9826,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 227.33) (xy 29.21 227.33)
+			(xy 25.4 222.25) (xy 27.94 222.25)
 		)
 		(stroke
 			(width 0)
@@ -9506,13 +9846,23 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 184.15) (xy 17.78 184.15)
+			(xy 24.13 179.07) (xy 16.51 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ad9b0e3d-88bd-40bc-ba28-a5b0b5e11e56")
+	)
+	(wire
+		(pts
+			(xy 257.81 158.75) (xy 257.81 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adac0258-6df6-4d01-a7c9-52a4a208ee03")
 	)
 	(wire
 		(pts
@@ -9523,16 +9873,6 @@
 			(type default)
 		)
 		(uuid "ae1d5251-787c-4c65-9acd-1fec7971777c")
-	)
-	(wire
-		(pts
-			(xy 259.08 158.75) (xy 260.35 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae9c5ac2-fd3b-4bdc-8448-ef081cad049b")
 	)
 	(wire
 		(pts
@@ -9556,6 +9896,26 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 264.16) (xy 200.66 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b01649e1-3ccf-49b7-a4d3-31328e628dea")
+	)
+	(wire
+		(pts
+			(xy 198.12 264.16) (xy 198.12 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f13b3d-6126-49c8-99fe-764e55fb51eb")
+	)
+	(wire
+		(pts
 			(xy 311.15 160.02) (xy 311.15 161.29)
 		)
 		(stroke
@@ -9576,23 +9936,13 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 208.28) (xy 33.02 208.28)
+			(xy 16.51 203.2) (xy 31.75 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b2b7094d-6b8a-40c6-8a71-62391eeee3fb")
-	)
-	(wire
-		(pts
-			(xy 199.39 209.55) (xy 200.66 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2e37a6e-7fda-4181-aec0-9e5bebcdf985")
 	)
 	(wire
 		(pts
@@ -9716,16 +10066,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 234.95) (xy 261.62 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc0c7c51-1512-49bc-ba75-b2039be76316")
-	)
-	(wire
-		(pts
 			(xy 229.87 52.07) (xy 229.87 62.23)
 		)
 		(stroke
@@ -9753,6 +10093,16 @@
 			(type default)
 		)
 		(uuid "bc5a1f9b-5b8b-4e28-970d-2ca09a9a9704")
+	)
+	(wire
+		(pts
+			(xy 259.08 209.55) (xy 261.62 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf57d63-f230-48e7-8349-db94d39a5733")
 	)
 	(wire
 		(pts
@@ -9806,7 +10156,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 184.15) (xy 255.27 184.15)
+			(xy 242.57 184.15) (xy 259.08 184.15)
 		)
 		(stroke
 			(width 0)
@@ -9886,7 +10236,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 209.55) (xy 255.27 209.55)
+			(xy 242.57 209.55) (xy 259.08 209.55)
 		)
 		(stroke
 			(width 0)
@@ -9936,17 +10286,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 158.75) (xy 200.66 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c65c1e30-9f4d-4c2c-a3a7-e4ba09eae766")
-	)
-	(wire
-		(pts
-			(xy 71.12 215.9) (xy 85.09 215.9)
+			(xy 71.12 209.55) (xy 85.09 209.55)
 		)
 		(stroke
 			(width 0)
@@ -9986,7 +10326,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 187.96) (xy 25.4 184.15)
+			(xy 24.13 182.88) (xy 24.13 179.07)
 		)
 		(stroke
 			(width 0)
@@ -10016,7 +10356,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 208.28) (xy 85.09 208.28)
+			(xy 71.12 201.93) (xy 85.09 201.93)
 		)
 		(stroke
 			(width 0)
@@ -10056,6 +10396,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 165.1) (xy 208.28 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0120459-a07b-41f0-837c-879edd649876")
+	)
+	(wire
+		(pts
 			(xy 121.92 38.1) (xy 139.7 38.1)
 		)
 		(stroke
@@ -10063,16 +10413,6 @@
 			(type default)
 		)
 		(uuid "d0dc36b4-3503-494d-bfac-d41e5d5b24e8")
-	)
-	(wire
-		(pts
-			(xy 199.39 264.16) (xy 200.66 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d253abd1-b3bf-4f0f-a6ce-826783080886")
 	)
 	(wire
 		(pts
@@ -10116,7 +10456,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 234.95) (xy 194.31 234.95)
+			(xy 181.61 234.95) (xy 198.12 234.95)
 		)
 		(stroke
 			(width 0)
@@ -10213,6 +10553,16 @@
 			(type default)
 		)
 		(uuid "dbe0dab1-f31b-486b-8975-d6b802c0b2ce")
+	)
+	(wire
+		(pts
+			(xy 198.12 234.95) (xy 200.66 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd708cdd-00b0-4242-a2d6-465e73a67222")
 	)
 	(wire
 		(pts
@@ -10376,7 +10726,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 209.55) (xy 194.31 209.55)
+			(xy 181.61 209.55) (xy 198.12 209.55)
 		)
 		(stroke
 			(width 0)
@@ -10386,7 +10736,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 223.52) (xy 26.67 227.33)
+			(xy 25.4 218.44) (xy 25.4 222.25)
 		)
 		(stroke
 			(width 0)
@@ -10456,7 +10806,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 195.58) (xy 29.21 195.58)
+			(xy 16.51 190.5) (xy 27.94 190.5)
 		)
 		(stroke
 			(width 0)
@@ -10473,16 +10823,6 @@
 			(type default)
 		)
 		(uuid "f3a08c1e-6568-46e0-8fb0-bb1fc90d89db")
-	)
-	(wire
-		(pts
-			(xy 260.35 184.15) (xy 261.62 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3a1315d-d67b-489c-90fe-6040c144da3b")
 	)
 	(wire
 		(pts
@@ -10503,6 +10843,16 @@
 			(type default)
 		)
 		(uuid "f4a935bc-add5-47c1-afbd-7a2e915bc932")
+	)
+	(wire
+		(pts
+			(xy 349.25 234.95) (xy 349.25 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b0f0d9-cc0e-47aa-b273-afb9ff30edb8")
 	)
 	(wire
 		(pts
@@ -10556,6 +10906,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 270.51) (xy 208.28 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8bbc44d-5f6b-411d-ae63-d7a59a5e27b1")
+	)
+	(wire
+		(pts
 			(xy 137.16 212.09) (xy 137.16 215.9)
 		)
 		(stroke
@@ -10563,6 +10923,16 @@
 			(type default)
 		)
 		(uuid "f8fdc6f4-d1d9-424f-8ea4-dba9b95b02af")
+	)
+	(wire
+		(pts
+			(xy 198.12 185.42) (xy 198.12 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9a809da-1bee-4eb5-997b-34969d2cbf3e")
 	)
 	(wire
 		(pts
@@ -10699,7 +11069,7 @@
 		(uuid "09465965-f9ee-43f9-8606-237b2a609aa7")
 	)
 	(label "Brk_AN1"
-		(at 17.78 215.9 0)
+		(at 16.51 210.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10709,7 +11079,7 @@
 		(uuid "0b99f28d-a1e6-4108-aaed-9d45407f4d3b")
 	)
 	(label "REV2"
-		(at 71.12 212.09 0)
+		(at 71.12 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10761,7 +11131,7 @@
 		(uuid "17d7ab0d-2c7d-4c8c-9050-8ec1e5dc220a")
 	)
 	(label "H_Brk2"
-		(at 71.12 204.47 0)
+		(at 71.12 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10781,7 +11151,7 @@
 		(uuid "1d443ad5-bdbf-42e3-a5d8-a590102de935")
 	)
 	(label "REV1"
-		(at 17.78 212.09 0)
+		(at 16.51 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10843,7 +11213,7 @@
 		(uuid "293142b4-c25a-4a16-a032-47d0c00a8b11")
 	)
 	(label "H_Brk1"
-		(at 17.78 203.2 0)
+		(at 16.51 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10967,7 +11337,7 @@
 		(uuid "4411f55b-4275-4e6e-a6e9-aa047bb29bf3")
 	)
 	(label "TPS2"
-		(at 71.12 215.9 0)
+		(at 71.12 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10977,7 +11347,7 @@
 		(uuid "443be3ac-ad19-4537-bc35-272d0eaa9676")
 	)
 	(label "CANL02"
-		(at 71.12 177.8 0)
+		(at 71.12 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11007,7 +11377,7 @@
 		(uuid "46414ab9-a5aa-4307-baae-77e966099907")
 	)
 	(label "ACC2"
-		(at 71.12 196.85 0)
+		(at 71.12 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11037,7 +11407,7 @@
 		(uuid "4fca2c02-7bbd-4637-a050-2e3050427cbb")
 	)
 	(label "TPS1"
-		(at 17.78 219.71 0)
+		(at 16.51 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11047,7 +11417,7 @@
 		(uuid "50cb3281-9133-45de-8735-b29063880c1a")
 	)
 	(label "CANL01"
-		(at 17.78 176.53 0)
+		(at 16.51 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11161,7 +11531,7 @@
 		(uuid "773ace7b-ce21-4b12-93dd-eac6d1c1cf7a")
 	)
 	(label "12V_INV"
-		(at 17.78 184.15 0)
+		(at 16.51 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11193,7 +11563,7 @@
 		(uuid "7e2ff791-7138-4f16-a778-bde231ea22e1")
 	)
 	(label "ACC1"
-		(at 17.78 195.58 0)
+		(at 16.51 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11203,7 +11573,7 @@
 		(uuid "80a0b8e4-4123-4af3-a295-883230ffb277")
 	)
 	(label "Brk_AN2"
-		(at 71.12 219.71 0)
+		(at 71.12 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11343,7 +11713,7 @@
 		(uuid "95207274-e84a-440f-b3c4-26f0f1cedad6")
 	)
 	(label "FWD2"
-		(at 71.12 208.28 0)
+		(at 71.12 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11373,7 +11743,7 @@
 		(uuid "a4362999-565e-4fea-bc46-b7f558fbbbec")
 	)
 	(label "INV_Supply"
-		(at 71.12 173.99 0)
+		(at 71.12 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11413,7 +11783,7 @@
 		(uuid "a744af62-0417-4b94-bb7d-518605cf4682")
 	)
 	(label "INV_Supply"
-		(at 17.78 172.72 0)
+		(at 16.51 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11423,7 +11793,7 @@
 		(uuid "aa64184e-3b44-408c-8856-fca55bc64f84")
 	)
 	(label "12V_INV"
-		(at 71.12 185.42 0)
+		(at 71.12 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11433,7 +11803,7 @@
 		(uuid "ab183454-28a6-44cd-855a-7b36a576a582")
 	)
 	(label "FWD1"
-		(at 17.78 208.28 0)
+		(at 16.51 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11523,7 +11893,7 @@
 		(uuid "c5b49c1e-f1da-469b-8e3a-e83921aa12f9")
 	)
 	(label "CANH01"
-		(at 17.78 180.34 0)
+		(at 16.51 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11565,7 +11935,7 @@
 		(uuid "cb7c8f15-648e-4435-9676-74b795f61248")
 	)
 	(label "ECO2"
-		(at 71.12 200.66 0)
+		(at 71.12 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11627,7 +11997,7 @@
 		(uuid "e8ff193a-bffc-4c50-8f09-9d561b1fa171")
 	)
 	(label "CANH02"
-		(at 71.12 181.61 0)
+		(at 71.12 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11689,7 +12059,7 @@
 		(uuid "f93eb788-1e5d-4b5a-bb18-51a5b7d680ce")
 	)
 	(label "ECO1"
-		(at 17.78 199.39 0)
+		(at 16.51 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12014,7 +12384,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 90.17 185.42 0)
+		(at 90.17 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12024,7 +12394,7 @@
 		(dnp no)
 		(uuid "01b9505f-0684-4f1d-8cb3-ccaa848ee3dd")
 		(property "Reference" "JO24"
-			(at 92.964 185.42 0)
+			(at 92.964 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12035,7 +12405,7 @@
 			)
 		)
 		(property "Value" "12V (Red)"
-			(at 100.076 185.42 0)
+			(at 100.076 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12047,7 +12417,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 90.17 185.42 0)
+			(at 90.17 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12058,7 +12428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 185.42 0)
+			(at 90.17 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12069,7 +12439,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 90.17 185.42 0)
+			(at 90.17 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12174,7 +12544,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 257.81 184.15 90)
+		(at 259.08 187.96 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12184,7 +12554,7 @@
 		(dnp no)
 		(uuid "040c898a-0143-43bc-80ab-461a23b5af01")
 		(property "Reference" "R15"
-			(at 259.334 182.372 90)
+			(at 257.302 186.436 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12195,7 +12565,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 259.588 186.182 90)
+			(at 261.112 186.182 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12206,7 +12576,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 257.81 184.15 0)
+			(at 259.08 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12217,7 +12587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 184.15 0)
+			(at 259.08 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12228,7 +12598,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 257.81 184.15 0)
+			(at 259.08 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12255,7 +12625,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 196.85 264.16 90)
+		(at 198.12 267.97 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12265,7 +12635,7 @@
 		(dnp no)
 		(uuid "041482e2-a0de-40fa-9cfc-1ad1607a4209")
 		(property "Reference" "R13"
-			(at 198.374 262.382 90)
+			(at 196.342 266.446 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12276,7 +12646,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 198.628 266.192 90)
+			(at 200.152 266.192 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12287,7 +12657,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 196.85 264.16 0)
+			(at 198.12 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12298,7 +12668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 264.16 0)
+			(at 198.12 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12309,7 +12679,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 196.85 264.16 0)
+			(at 198.12 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12744,7 +13114,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 34.29 195.58 0)
+		(at 33.02 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12754,7 +13124,7 @@
 		(dnp no)
 		(uuid "07cbbef1-27d2-4f34-abf7-723472e44f3f")
 		(property "Reference" "JO19"
-			(at 40.64 195.58 0)
+			(at 39.37 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12765,7 +13135,7 @@
 			)
 		)
 		(property "Value" "ACC (Gray)"
-			(at 45.974 195.58 0)
+			(at 44.704 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12777,7 +13147,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 34.29 195.58 0)
+			(at 33.02 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12788,7 +13158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 195.58 0)
+			(at 33.02 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12799,7 +13169,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 34.29 195.58 0)
+			(at 33.02 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13286,7 +13656,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 34.29 180.34 0)
+		(at 33.02 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13296,7 +13666,7 @@
 		(dnp no)
 		(uuid "155cad07-d117-4cb0-98b9-fe9ef3923225")
 		(property "Reference" "JO8"
-			(at 40.64 180.34 0)
+			(at 39.37 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13307,7 +13677,7 @@
 			)
 		)
 		(property "Value" "CAN_H (Greenish)"
-			(at 45.466 180.34 0)
+			(at 44.196 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13319,7 +13689,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 34.29 180.34 0)
+			(at 33.02 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13330,7 +13700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 180.34 0)
+			(at 33.02 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13341,7 +13711,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 34.29 180.34 0)
+			(at 33.02 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13734,7 +14104,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 86.36 227.33 0)
+		(at 86.36 220.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13744,7 +14114,7 @@
 		(dnp no)
 		(uuid "19bf591b-f272-46e7-87c0-91596b8c7203")
 		(property "Reference" "JO34"
-			(at 92.964 227.33 0)
+			(at 92.964 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13755,7 +14125,7 @@
 			)
 		)
 		(property "Value" "GND (Black)"
-			(at 100.584 227.33 0)
+			(at 100.584 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13767,7 +14137,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 86.36 227.33 0)
+			(at 86.36 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13778,7 +14148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 227.33 0)
+			(at 86.36 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13789,7 +14159,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 227.33 0)
+			(at 86.36 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14373,7 +14743,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 90.17 208.28 0)
+		(at 90.17 201.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14383,7 +14753,7 @@
 		(dnp no)
 		(uuid "2c4d3cb5-95ea-4ae0-8b98-268ba114ff9d")
 		(property "Reference" "JO23"
-			(at 93.218 208.28 0)
+			(at 93.218 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14394,7 +14764,7 @@
 			)
 		)
 		(property "Value" "FWD (White)"
-			(at 100.33 208.28 0)
+			(at 100.33 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14405,7 +14775,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 90.17 208.28 0)
+			(at 90.17 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14416,7 +14786,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 208.28 0)
+			(at 90.17 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14427,7 +14797,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 90.17 208.28 0)
+			(at 90.17 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14528,7 +14898,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 86.36 204.47 0)
+		(at 86.36 198.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14538,7 +14908,7 @@
 		(dnp no)
 		(uuid "2d51521e-fad6-40c5-9a59-ad4cd9c03800")
 		(property "Reference" "JO25"
-			(at 93.218 204.47 0)
+			(at 93.218 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14549,7 +14919,7 @@
 			)
 		)
 		(property "Value" "H_Brk (Yellowish)"
-			(at 100.076 204.47 0)
+			(at 100.076 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14561,7 +14931,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 86.36 204.47 0)
+			(at 86.36 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14572,7 +14942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 204.47 0)
+			(at 86.36 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14583,7 +14953,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 204.47 0)
+			(at 86.36 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14927,8 +15297,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 196.85 234.95 90)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 36.83 226.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14936,20 +15306,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "32e0d77c-9242-4e50-a526-494c72029c9e")
-		(property "Reference" "R11"
-			(at 198.374 233.172 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 198.628 236.982 90)
+		(uuid "3256b2c4-22ff-44e9-948f-105bee55f1a6")
+		(property "Reference" "JO17"
+			(at 39.37 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14959,8 +15318,20 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 196.85 234.95 0)
+		(property "Value" "Meter (Dark Gray)"
+			(at 45.212 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 72 72 72 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+			(at 36.83 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14971,7 +15342,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 234.95 0)
+			(at 36.83 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 36.83 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f7b32d8-cb77-4f5c-b750-ae19cc3edbdd")
+		)
+		(instances
+			(project "VCUinvertor"
+				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
+					(reference "JO17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 198.12 238.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "32e0d77c-9242-4e50-a526-494c72029c9e")
+		(property "Reference" "R11"
+			(at 196.342 237.236 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 200.152 236.982 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 198.12 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14982,7 +15431,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 196.85 234.95 0)
+			(at 198.12 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15092,7 +15541,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 90.17 177.8 0)
+		(at 90.17 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15102,7 +15551,7 @@
 		(dnp no)
 		(uuid "38cae35b-024f-445c-abb5-5f88ab8e214b")
 		(property "Reference" "JO27"
-			(at 92.964 177.8 0)
+			(at 92.964 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15113,7 +15562,7 @@
 			)
 		)
 		(property "Value" "CAN_L (Brownish)"
-			(at 100.076 177.8 0)
+			(at 100.076 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15125,7 +15574,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 90.17 177.8 0)
+			(at 90.17 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15136,7 +15585,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 177.8 0)
+			(at 90.17 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15147,7 +15596,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 90.17 177.8 0)
+			(at 90.17 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15331,7 +15780,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 231.14 0)
+		(at 78.74 224.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15341,7 +15790,7 @@
 		(dnp no)
 		(uuid "3a89a7df-e142-46d9-839e-e74a2affd49f")
 		(property "Reference" "#PWR015"
-			(at 78.74 237.49 0)
+			(at 78.74 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15352,7 +15801,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.026 231.394 0)
+			(at 81.026 225.044 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15362,7 +15811,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 231.14 0)
+			(at 78.74 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15373,7 +15822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 231.14 0)
+			(at 78.74 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15384,7 +15833,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 231.14 0)
+			(at 78.74 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15820,7 +16269,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4322f585-758d-4cea-a4ae-7df5a3b0aae7")
-		(property "Reference" "JO17"
+		(property "Reference" "JO38"
 			(at 150.622 262.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15882,7 +16331,7 @@
 		(instances
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "JO17")
+					(reference "JO38")
 					(unit 1)
 				)
 			)
@@ -15890,7 +16339,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 86.36 173.99 0)
+		(at 86.36 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15900,7 +16349,7 @@
 		(dnp no)
 		(uuid "46649e3a-0cf9-45d5-aafe-7046acda7396")
 		(property "Reference" "JO21"
-			(at 92.964 173.99 0)
+			(at 92.964 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15911,7 +16360,7 @@
 			)
 		)
 		(property "Value" "PWR (Pink)"
-			(at 99.822 173.99 0)
+			(at 99.822 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15923,7 +16372,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 86.36 173.99 0)
+			(at 86.36 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15934,7 +16383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 173.99 0)
+			(at 86.36 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15945,7 +16394,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 173.99 0)
+			(at 86.36 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16219,7 +16668,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 38.1 223.52 0)
+		(at 36.83 218.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16229,7 +16678,7 @@
 		(dnp no)
 		(uuid "4c3563c7-d113-4b0e-8edb-6e51e0d0e29e")
 		(property "Reference" "JO6"
-			(at 40.64 223.52 0)
+			(at 39.37 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16240,7 +16689,7 @@
 			)
 		)
 		(property "Value" "GND (Black)"
-			(at 46.228 223.52 0)
+			(at 44.958 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16252,7 +16701,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 38.1 223.52 0)
+			(at 36.83 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16263,7 +16712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 223.52 0)
+			(at 36.83 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16274,7 +16723,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 38.1 223.52 0)
+			(at 36.83 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16894,7 +17343,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 196.85 158.75 90)
+		(at 198.12 162.56 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16904,7 +17353,7 @@
 		(dnp no)
 		(uuid "54e40993-df22-4724-9ac9-f6b24f43963f")
 		(property "Reference" "R5"
-			(at 198.374 156.972 90)
+			(at 196.342 161.036 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16915,7 +17364,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 198.628 160.782 90)
+			(at 200.152 160.782 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16926,7 +17375,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 196.85 158.75 0)
+			(at 198.12 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16937,7 +17386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 158.75 0)
+			(at 198.12 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16948,7 +17397,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 196.85 158.75 0)
+			(at 198.12 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17217,7 +17666,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 196.85 184.15 90)
+		(at 198.12 187.96 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17227,7 +17676,7 @@
 		(dnp no)
 		(uuid "5b5bcbf3-e962-43b8-b2d1-51781c5045e1")
 		(property "Reference" "R7"
-			(at 198.374 182.372 90)
+			(at 196.342 186.436 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17238,7 +17687,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 198.628 186.182 90)
+			(at 200.152 186.182 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17249,7 +17698,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 196.85 184.15 0)
+			(at 198.12 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17260,7 +17709,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 184.15 0)
+			(at 198.12 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17271,7 +17720,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 196.85 184.15 0)
+			(at 198.12 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17298,7 +17747,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 90.17 223.52 0)
+		(at 90.17 217.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17308,7 +17757,7 @@
 		(dnp no)
 		(uuid "5c2b6894-ebe9-4cef-b86d-92fab2876eb6")
 		(property "Reference" "JO26"
-			(at 92.964 223.52 0)
+			(at 92.964 217.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17319,7 +17768,7 @@
 			)
 		)
 		(property "Value" "GND (Black)"
-			(at 100.584 223.52 0)
+			(at 100.584 217.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17331,7 +17780,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 90.17 223.52 0)
+			(at 90.17 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17342,7 +17791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 223.52 0)
+			(at 90.17 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17353,7 +17802,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 90.17 223.52 0)
+			(at 90.17 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17377,7 +17826,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 86.36 189.23 0)
+		(at 86.36 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17387,7 +17836,7 @@
 		(dnp no)
 		(uuid "5f94fabd-1f22-4006-9b4c-5bc0e2756f69")
 		(property "Reference" "JO35"
-			(at 92.964 189.23 0)
+			(at 92.964 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17398,7 +17847,7 @@
 			)
 		)
 		(property "Value" "12V (Red)"
-			(at 99.822 189.23 0)
+			(at 99.822 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17410,7 +17859,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 86.36 189.23 0)
+			(at 86.36 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17421,7 +17870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 189.23 0)
+			(at 86.36 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17432,7 +17881,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 189.23 0)
+			(at 86.36 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17701,7 +18150,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 257.81 209.55 90)
+		(at 259.08 213.36 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17711,7 +18160,7 @@
 		(dnp no)
 		(uuid "66efb023-6caa-4a0f-b117-a9df24db954c")
 		(property "Reference" "R17"
-			(at 259.334 207.772 90)
+			(at 257.302 211.836 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17722,7 +18171,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 259.588 211.582 90)
+			(at 261.112 211.582 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17733,7 +18182,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 257.81 209.55 0)
+			(at 259.08 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17744,7 +18193,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 209.55 0)
+			(at 259.08 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17755,7 +18204,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 257.81 209.55 0)
+			(at 259.08 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17782,7 +18231,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 38.1 199.39 0)
+		(at 36.83 194.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17792,7 +18241,7 @@
 		(dnp no)
 		(uuid "66f862ff-0a87-48a0-b6fb-59f5300aa67e")
 		(property "Reference" "JO11"
-			(at 40.64 199.39 0)
+			(at 39.37 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17803,7 +18252,7 @@
 			)
 		)
 		(property "Value" "ECO (Blue)"
-			(at 45.974 199.39 0)
+			(at 44.704 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17815,7 +18264,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 38.1 199.39 0)
+			(at 36.83 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17826,7 +18275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 199.39 0)
+			(at 36.83 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17837,7 +18286,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 38.1 199.39 0)
+			(at 36.83 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17861,7 +18310,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 90.17 193.04 0)
+		(at 90.17 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17871,7 +18320,7 @@
 		(dnp no)
 		(uuid "67116813-cf72-42e0-8d13-08d2f6e21e2d")
 		(property "Reference" "JO33"
-			(at 92.964 193.04 0)
+			(at 92.964 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17882,7 +18331,7 @@
 			)
 		)
 		(property "Value" "5V (Purple)"
-			(at 99.822 193.04 0)
+			(at 99.822 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17894,7 +18343,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 90.17 193.04 0)
+			(at 90.17 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17905,7 +18354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 193.04 0)
+			(at 90.17 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17916,7 +18365,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 90.17 193.04 0)
+			(at 90.17 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17940,7 +18389,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 38.1 215.9 0)
+		(at 36.83 210.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17950,7 +18399,7 @@
 		(dnp no)
 		(uuid "69c848d4-4d8a-4792-ac9c-70c99f168c2b")
 		(property "Reference" "JO10"
-			(at 40.894 215.9 0)
+			(at 39.624 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17961,7 +18410,7 @@
 			)
 		)
 		(property "Value" "Brk_AN (Brown)"
-			(at 45.974 215.9 0)
+			(at 44.704 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17972,7 +18421,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 38.1 215.9 0)
+			(at 36.83 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17983,7 +18432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 215.9 0)
+			(at 36.83 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17994,7 +18443,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 38.1 215.9 0)
+			(at 36.83 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18099,7 +18548,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 257.81 234.95 90)
+		(at 259.08 238.76 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18109,7 +18558,7 @@
 		(dnp no)
 		(uuid "6d7bc23d-0127-4e19-9a63-6658739acc09")
 		(property "Reference" "R19"
-			(at 259.334 233.172 90)
+			(at 257.302 237.236 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18120,7 +18569,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 259.588 236.982 90)
+			(at 261.112 236.982 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18131,7 +18580,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 257.81 234.95 0)
+			(at 259.08 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18142,7 +18591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 234.95 0)
+			(at 259.08 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18153,7 +18602,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 257.81 234.95 0)
+			(at 259.08 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18180,7 +18629,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 38.1 184.15 0)
+		(at 36.83 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18190,7 +18639,7 @@
 		(dnp no)
 		(uuid "6e38d8a8-a203-46e1-bc36-616fa718263d")
 		(property "Reference" "JO15"
-			(at 40.64 184.15 0)
+			(at 39.37 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18201,7 +18650,7 @@
 			)
 		)
 		(property "Value" "12V (Red)"
-			(at 45.72 184.15 0)
+			(at 44.45 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18213,7 +18662,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 38.1 184.15 0)
+			(at 36.83 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18224,7 +18673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 184.15 0)
+			(at 36.83 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18235,7 +18684,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 38.1 184.15 0)
+			(at 36.83 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18338,7 +18787,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 38.1 191.77 0)
+		(at 36.83 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18348,7 +18797,7 @@
 		(dnp no)
 		(uuid "703af13e-1a3c-4e43-b142-bfbc29c52d49")
 		(property "Reference" "JO13"
-			(at 40.64 191.77 0)
+			(at 39.37 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18359,7 +18808,7 @@
 			)
 		)
 		(property "Value" "5V (Purple)"
-			(at 45.974 191.77 0)
+			(at 44.704 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18371,7 +18820,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 38.1 191.77 0)
+			(at 36.83 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18382,7 +18831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 191.77 0)
+			(at 36.83 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18393,7 +18842,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 38.1 191.77 0)
+			(at 36.83 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18812,7 +19261,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 229.87 0)
+		(at 25.4 224.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18822,7 +19271,7 @@
 		(dnp no)
 		(uuid "7bf6c250-4957-4a72-bb7c-270206775051")
 		(property "Reference" "#PWR06"
-			(at 26.67 236.22 0)
+			(at 25.4 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18833,7 +19282,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 28.956 230.124 0)
+			(at 27.686 225.044 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18843,7 +19292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 229.87 0)
+			(at 25.4 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18854,7 +19303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 229.87 0)
+			(at 25.4 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18865,7 +19314,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 229.87 0)
+			(at 25.4 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19047,7 +19496,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 34.29 203.2 0)
+		(at 33.02 198.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19057,7 +19506,7 @@
 		(dnp no)
 		(uuid "800f5db1-72c2-452d-9222-d5fddc2e49f2")
 		(property "Reference" "JO9"
-			(at 40.64 203.2 0)
+			(at 39.37 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19068,7 +19517,7 @@
 			)
 		)
 		(property "Value" "H_Brk (Yellowish)"
-			(at 45.974 203.2 0)
+			(at 44.704 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19080,7 +19529,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 34.29 203.2 0)
+			(at 33.02 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19091,7 +19540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 203.2 0)
+			(at 33.02 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19102,7 +19551,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 34.29 203.2 0)
+			(at 33.02 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19415,7 +19864,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 196.85 209.55 90)
+		(at 198.12 213.36 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19425,7 +19874,7 @@
 		(dnp no)
 		(uuid "8593c0cd-32f5-4ccb-a2b1-0eb0d2116142")
 		(property "Reference" "R9"
-			(at 198.374 207.772 90)
+			(at 196.342 211.836 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19436,7 +19885,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 198.628 211.582 90)
+			(at 200.152 211.582 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19447,7 +19896,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 196.85 209.55 0)
+			(at 198.12 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19458,7 +19907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 209.55 0)
+			(at 198.12 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19469,7 +19918,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 196.85 209.55 0)
+			(at 198.12 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19496,7 +19945,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 256.54 264.16 90)
+		(at 257.81 267.97 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19506,7 +19955,7 @@
 		(dnp no)
 		(uuid "89e63c39-7097-4db8-86f6-9fd8adf94e2d")
 		(property "Reference" "R21"
-			(at 258.064 262.382 90)
+			(at 256.032 266.446 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19517,7 +19966,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 258.318 266.192 90)
+			(at 259.842 266.192 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19528,7 +19977,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 256.54 264.16 0)
+			(at 257.81 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19539,7 +19988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 264.16 0)
+			(at 257.81 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19550,7 +19999,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 256.54 264.16 0)
+			(at 257.81 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19577,7 +20026,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 38.1 208.28 0)
+		(at 36.83 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19587,7 +20036,7 @@
 		(dnp no)
 		(uuid "8af26996-5d99-4c12-9cb3-e2825cb8245d")
 		(property "Reference" "JO5"
-			(at 40.64 208.28 0)
+			(at 39.37 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19598,7 +20047,7 @@
 			)
 		)
 		(property "Value" "FWD (White)"
-			(at 45.974 208.28 0)
+			(at 44.704 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19609,7 +20058,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 38.1 208.28 0)
+			(at 36.83 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19620,7 +20069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 208.28 0)
+			(at 36.83 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19631,7 +20080,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 38.1 208.28 0)
+			(at 36.83 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20138,7 +20587,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 86.36 219.71 0)
+		(at 86.36 213.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20148,7 +20597,7 @@
 		(dnp no)
 		(uuid "9c6540e3-eb0e-4e92-a473-6b08447db0b5")
 		(property "Reference" "JO30"
-			(at 92.964 219.71 0)
+			(at 92.964 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20159,7 +20608,7 @@
 			)
 		)
 		(property "Value" "Brk_AN (Brown)"
-			(at 100.584 219.71 0)
+			(at 100.584 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20170,7 +20619,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 86.36 219.71 0)
+			(at 86.36 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20181,7 +20630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 219.71 0)
+			(at 86.36 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20192,7 +20641,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 219.71 0)
+			(at 86.36 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20620,7 +21069,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 38.1 176.53 0)
+		(at 36.83 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20630,7 +21079,7 @@
 		(dnp no)
 		(uuid "a4ebe5f6-72f8-44b6-98ce-f7914051dea4")
 		(property "Reference" "JO7"
-			(at 40.64 176.53 0)
+			(at 39.37 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20641,7 +21090,7 @@
 			)
 		)
 		(property "Value" "CAN_L (Brownish)"
-			(at 45.212 176.53 0)
+			(at 43.942 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20653,7 +21102,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 38.1 176.53 0)
+			(at 36.83 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20664,7 +21113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 176.53 0)
+			(at 36.83 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20675,7 +21124,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 38.1 176.53 0)
+			(at 36.83 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20699,7 +21148,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 34.29 212.09 0)
+		(at 33.02 207.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20709,7 +21158,7 @@
 		(dnp no)
 		(uuid "a80b6b09-2df4-4921-8d07-f5e3a1a98222")
 		(property "Reference" "JO3"
-			(at 40.64 212.09 0)
+			(at 39.37 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20720,7 +21169,7 @@
 			)
 		)
 		(property "Value" "REV (Orange)"
-			(at 45.974 212.09 0)
+			(at 44.704 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20732,7 +21181,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 34.29 212.09 0)
+			(at 33.02 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20743,7 +21192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 212.09 0)
+			(at 33.02 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20754,7 +21203,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 34.29 212.09 0)
+			(at 33.02 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20857,7 +21306,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 34.29 227.33 0)
+		(at 33.02 222.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20867,7 +21316,7 @@
 		(dnp no)
 		(uuid "aac6c80c-2864-4598-97ce-c0be2919f2c4")
 		(property "Reference" "JO14"
-			(at 40.64 227.33 0)
+			(at 39.37 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20878,7 +21327,7 @@
 			)
 		)
 		(property "Value" "GND (Black)"
-			(at 46.482 227.33 0)
+			(at 45.212 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20890,7 +21339,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 34.29 227.33 0)
+			(at 33.02 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20901,7 +21350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 227.33 0)
+			(at 33.02 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20912,7 +21361,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 34.29 227.33 0)
+			(at 33.02 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21437,7 +21886,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 34.29 172.72 0)
+		(at 33.02 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21447,7 +21896,7 @@
 		(dnp no)
 		(uuid "b5601b50-e3bd-44b2-80bc-b609e88fa0aa")
 		(property "Reference" "JO1"
-			(at 40.64 172.72 0)
+			(at 39.37 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21458,7 +21907,7 @@
 			)
 		)
 		(property "Value" "PWR (Pink)"
-			(at 45.466 172.72 0)
+			(at 44.196 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21470,7 +21919,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 34.29 172.72 0)
+			(at 33.02 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21481,7 +21930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 172.72 0)
+			(at 33.02 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21492,7 +21941,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 34.29 172.72 0)
+			(at 33.02 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21516,7 +21965,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 86.36 212.09 0)
+		(at 86.36 205.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21526,7 +21975,7 @@
 		(dnp no)
 		(uuid "b5bc3579-7830-453d-9d76-e35ca1e8229c")
 		(property "Reference" "JO22"
-			(at 92.964 212.09 0)
+			(at 92.964 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21537,7 +21986,7 @@
 			)
 		)
 		(property "Value" "REV (Orange)"
-			(at 100.33 212.09 0)
+			(at 100.33 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21549,7 +21998,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 86.36 212.09 0)
+			(at 86.36 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21560,7 +22009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 212.09 0)
+			(at 86.36 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21571,7 +22020,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 212.09 0)
+			(at 86.36 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21764,7 +22213,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 34.29 219.71 0)
+		(at 33.02 214.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21774,7 +22223,7 @@
 		(dnp no)
 		(uuid "b7713282-0ee2-42b2-87ff-d83a65a5432b")
 		(property "Reference" "JO12"
-			(at 40.64 219.71 0)
+			(at 39.37 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21785,7 +22234,7 @@
 			)
 		)
 		(property "Value" "TPS (Green)"
-			(at 46.228 219.71 0)
+			(at 44.958 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21797,7 +22246,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 34.29 219.71 0)
+			(at 33.02 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21808,7 +22257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 219.71 0)
+			(at 33.02 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21819,7 +22268,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 34.29 219.71 0)
+			(at 33.02 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21922,7 +22371,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 34.29 187.96 0)
+		(at 33.02 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21932,7 +22381,7 @@
 		(dnp no)
 		(uuid "bb9942c3-eab6-4b18-9f5c-881b3d662684")
 		(property "Reference" "JO4"
-			(at 40.64 187.96 0)
+			(at 39.37 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21943,7 +22392,7 @@
 			)
 		)
 		(property "Value" "12V (Red)"
-			(at 45.72 187.96 0)
+			(at 44.45 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21955,7 +22404,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 34.29 187.96 0)
+			(at 33.02 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21966,7 +22415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 187.96 0)
+			(at 33.02 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21977,7 +22426,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 34.29 187.96 0)
+			(at 33.02 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22001,7 +22450,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 256.54 158.75 90)
+		(at 257.81 162.56 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22011,7 +22460,7 @@
 		(dnp no)
 		(uuid "c0be824d-b90c-4ad9-b497-9e0665eab278")
 		(property "Reference" "R63"
-			(at 258.064 156.972 90)
+			(at 256.032 161.036 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22022,7 +22471,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 258.318 160.782 90)
+			(at 259.842 160.782 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22033,7 +22482,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 256.54 158.75 0)
+			(at 257.81 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22044,7 +22493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 158.75 0)
+			(at 257.81 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22055,7 +22504,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 256.54 158.75 0)
+			(at 257.81 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22161,7 +22610,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 86.36 196.85 0)
+		(at 86.36 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22171,7 +22620,7 @@
 		(dnp no)
 		(uuid "c51d831c-4a34-4000-85bb-cc49d7e02fae")
 		(property "Reference" "JO31"
-			(at 93.218 196.85 0)
+			(at 93.218 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22182,7 +22631,7 @@
 			)
 		)
 		(property "Value" "ACC (Gray)"
-			(at 100.076 196.85 0)
+			(at 100.076 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22194,7 +22643,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 86.36 196.85 0)
+			(at 86.36 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22205,7 +22654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 196.85 0)
+			(at 86.36 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22216,7 +22665,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 196.85 0)
+			(at 86.36 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22328,7 +22777,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 90.17 200.66 0)
+		(at 90.17 194.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22338,7 +22787,7 @@
 		(dnp no)
 		(uuid "c600d29c-f7e5-4a1d-a273-b47125214e9e")
 		(property "Reference" "JO29"
-			(at 93.218 200.66 0)
+			(at 93.218 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22349,7 +22798,7 @@
 			)
 		)
 		(property "Value" "ECO (Blue)"
-			(at 100.076 200.66 0)
+			(at 100.076 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22361,7 +22810,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 90.17 200.66 0)
+			(at 90.17 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22372,7 +22821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 200.66 0)
+			(at 90.17 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22383,7 +22832,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 90.17 200.66 0)
+			(at 90.17 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23557,7 +24006,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 86.36 181.61 0)
+		(at 86.36 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23567,7 +24016,7 @@
 		(dnp no)
 		(uuid "dafba902-78a3-4b46-93d6-df6f1d821c4e")
 		(property "Reference" "JO28"
-			(at 92.964 181.61 0)
+			(at 92.964 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23578,7 +24027,7 @@
 			)
 		)
 		(property "Value" "CAN_H (Greenish)"
-			(at 99.822 181.61 0)
+			(at 99.822 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23590,7 +24039,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 86.36 181.61 0)
+			(at 86.36 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23601,7 +24050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 181.61 0)
+			(at 86.36 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23612,7 +24061,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 181.61 0)
+			(at 86.36 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23629,6 +24078,87 @@
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
 					(reference "JO28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 349.25 237.49 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dd6a4bac-a55b-468c-8e2c-4a048f90a9ea")
+		(property "Reference" "R23"
+			(at 347.472 235.966 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 351.282 235.712 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 349.25 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 349.25 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "268a97de-0cc8-45b1-9ee3-624ac8f3b977")
+		)
+		(pin "1"
+			(uuid "3188ed97-6fdb-432c-aa72-c89990163f20")
+		)
+		(instances
+			(project "VCUinvertor"
+				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -23795,7 +24325,86 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 90.17 215.9 0)
+		(at 90.17 224.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e23ce083-902e-49f9-a606-bf34b83da36d")
+		(property "Reference" "JO37"
+			(at 92.964 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Meter (Dark Gray)"
+			(at 100.584 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 72 72 72 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+			(at 90.17 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 90.17 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4425ee99-a54e-4571-ae76-bf1c6ca8029a")
+		)
+		(instances
+			(project "VCUinvertor"
+				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
+					(reference "JO37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 90.17 209.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23805,7 +24414,7 @@
 		(dnp no)
 		(uuid "e50c0fe0-c39c-4548-8de7-113b872f8fd8")
 		(property "Reference" "JO32"
-			(at 92.964 215.9 0)
+			(at 92.964 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23816,7 +24425,7 @@
 			)
 		)
 		(property "Value" "TPS (Green)"
-			(at 100.584 216.154 0)
+			(at 100.584 209.804 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23828,7 +24437,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
-			(at 90.17 215.9 0)
+			(at 90.17 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23839,7 +24448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 215.9 0)
+			(at 90.17 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23850,7 +24459,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 90.17 215.9 0)
+			(at 90.17 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
