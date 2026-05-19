@@ -11014,7 +11014,7 @@
 		)
 		(uuid "fffb4e45-6e8d-4d72-9a1b-c31310b2197b")
 	)
-	(label "RX0"
+	(label "RX2"
 		(at 251.46 85.09 0)
 		(effects
 			(font
@@ -11458,7 +11458,7 @@
 		)
 		(uuid "5a5d5298-0df0-43b4-a39d-fcb9f937a493")
 	)
-	(label "RX0"
+	(label "RX2"
 		(at 139.7 40.64 180)
 		(effects
 			(font
@@ -11540,7 +11540,7 @@
 		)
 		(uuid "77ee2bbd-ebb8-4cdb-94e2-0ec32b752d14")
 	)
-	(label "TX0"
+	(label "TX2"
 		(at 139.7 38.1 180)
 		(effects
 			(font
@@ -12026,7 +12026,7 @@
 		)
 		(uuid "f25d9802-2d28-4b07-be9f-0da4bcc05fb7")
 	)
-	(label "TX0"
+	(label "TX2"
 		(at 251.46 82.55 0)
 		(effects
 			(font
@@ -13543,7 +13543,7 @@
 			)
 		)
 		(property "Value" "NXP12"
-			(at 126.238 128.27 0)
+			(at 111.76 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16768,7 +16768,7 @@
 			)
 		)
 		(property "Value" "NXP13"
-			(at 64.77 71.374 0)
+			(at 64.516 47.752 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
