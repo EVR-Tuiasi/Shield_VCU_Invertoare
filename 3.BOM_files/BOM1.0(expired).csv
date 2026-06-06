@@ -1,45 +1,45 @@
-"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
-"C1,C2,C3,C5,C6,C10,C12","7","0.1uF","","","","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~"
-"C4","1","2.2uF","","","","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~"
-"C7,C8","2","4.7uF","","","","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~"
-"C9,C11","2","10uF","","","","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~"
-"CA0","1","CAN_NXP","","","","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","~"
-"CA1","1","CAN_OUT_NXP","","","","Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical","~"
-"D1","1","MBR0540","","","","Diode_SMD:D_SOD-123","http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
-"D2","1","MBRS340","","","","Diode_SMD:D_SMC","https://www.onsemi.com/download/data-sheet/pdf/mbrs340t3-d.pdf"
-"DAC1","1","LTC2645HMS-L12_PBF","","","","LTC2645HMS-L12_PBF:MSOP-16_MS",""
-"H1,H2,H3,H4","4","MountingHole_Pad","","Excluded from BOM","","MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad","~"
-"J7","1","PowerSupply","","","","Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical","~"
-"J9","1","BREAKLIGHT","","","","Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical","~"
-"JO1,JO21","2","PWR (Pink)","","","","Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm","~"
-"JO3,JO22","2","REV (Orange)","","","","Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm","~"
-"JO4,JO15,JO24,JO35","4","12V (Red)","","","","Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm","~"
-"JO5,JO23","2","FWD (White)","","","","Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm","~"
-"JO6,JO14,JO26,JO34","4","GND (Black)","","","","Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm","~"
-"JO7,JO27","2","CAN_L (Brownish)","","","","Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm","~"
-"JO8,JO28","2","CAN_H (Greenish)","","","","Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm","~"
-"JO9,JO25","2","H_Brk (Yellowish)","","","","Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm","~"
-"JO10,JO30","2","Brk_AN (Brown)","","","","Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm","~"
-"JO11,JO29","2","ECO (Blue)","","","","Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm","~"
-"JO12,JO32","2","TPS (Green)","","","","Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm","~"
-"JO13,JO33","2","5V (Purple)","","","","Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm","~"
-"JO19,JO31","2","ACC (Gray)","","","","Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm","~"
-"JU1","1","UART_INV01","","","","Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal","~"
-"JU2","1","UART_INV02","","","","Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal","~"
-"NXP10","1","NXP10","","","","Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical","~"
-"NXP11","1","NXP11","","","","Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical","~"
-"NXP12","1","NXP12","","","","Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical","~"
-"NXP13","1","NXP13","","","","Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical","~"
-"NXP14","1","NXP14","","","","Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical","~"
-"NXP15","1","NXP15","","","","Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical","~"
-"Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10","10","2N7002","","","","Package_TO_SOT_SMD:SOT-23","https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-"Q11","1","BC848C","","","","Package_TO_SOT_SMD:SOT-23","http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
-"Q12","1","BCP51","","","","Package_TO_SOT_SMD:SOT-223-3_TabPin2","https://www.onsemi.com/pub/Collateral/BCP51-D.pdf"
-"R1,R2,R3,R4","4","60R4","","","","Resistor_SMD:R_0805_2012Metric","~"
-"R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R26,R28,R63,R64","22","10k","","","","Resistor_SMD:R_0805_2012Metric","~"
-"R23","1","1.7k","","","","Resistor_SMD:R_0805_2012Metric","~"
-"R24","1","360R","","","","Resistor_SMD:R_0805_2012Metric","~"
-"R25,R27","2","5.1k","","","","Resistor_SMD:R_0805_2012Metric","~"
-"U1","1","TJA1448ATK","","","","Package_DFN_QFN:DFN-14-1EP_3x4.5mm_P0.65mm_EP1.65x4.25mm","https://www.nxp.com/docs/en/data-sheet/TJA1145.pdf"
-"U2","1","REF3433T","","","","Package_TO_SOT_SMD:SOT-23-6","https://www.ti.com/lit/ds/symlink/ref35.pdf"
-"U3","1","TLV76150DCY","","","","Package_TO_SOT_SMD:SOT-223-3_TabPin2","https://www.ti.com/lit/ds/symlink/tlv761.pdf"
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+"C1,C2,C3,C5,C6,C10,C12",7,0.1uF,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~
+C4,1,2.2uF,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~
+"C7,C8",2,4.7uF,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~
+"C9,C11",2,10uF,,,,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~
+CA0,1,CAN_NXP,,,,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,~
+CA1,1,CAN_OUT_NXP,,,,Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,~
+D1,1,MBR0540,,,,Diode_SMD:D_SOD-123,http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf
+D2,1,MBRS340,,,,Diode_SMD:D_SMC,https://www.onsemi.com/download/data-sheet/pdf/mbrs340t3-d.pdf
+DAC1,1,LTC2645HMS-L12_PBF,,,,LTC2645HMS-L12_PBF:MSOP-16_MS,
+"H1,H2,H3,H4",4,MountingHole_Pad,,Excluded from BOM,,MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad,~
+J7,1,PowerSupply,,,,Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,~
+J9,1,BREAKLIGHT,,,,Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical,~
+"JO1,JO21",2,PWR (Pink),,,,Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm,~
+"JO3,JO22",2,REV (Orange),,,,Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm,~
+"JO4,JO15,JO24,JO35",4,12V (Red),,,,Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm,~
+"JO5,JO23",2,FWD (White),,,,Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm,~
+"JO6,JO14,JO26,JO34",4,GND (Black),,,,Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm,~
+"JO7,JO27",2,CAN_L (Brownish),,,,Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm,~
+"JO8,JO28",2,CAN_H (Greenish),,,,Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm,~
+"JO9,JO25",2,H_Brk (Yellowish),,,,Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm,~
+"JO10,JO30",2,Brk_AN (Brown),,,,Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm,~
+"JO11,JO29",2,ECO (Blue),,,,Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm,~
+"JO12,JO32",2,TPS (Green),,,,Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm,~
+"JO13,JO33",2,5V (Purple),,,,Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm,~
+"JO19,JO31",2,ACC (Gray),,,,Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm,~
+JU1,1,UART_INV01,,,,Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal,~
+JU2,1,UART_INV02,,,,Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal,~
+NXP10,1,NXP10,,,,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,~
+NXP11,1,NXP11,,,,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,~
+NXP12,1,NXP12,,,,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,~
+NXP13,1,NXP13,,,,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,~
+NXP14,1,NXP14,,,,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,~
+NXP15,1,NXP15,,,,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,~
+"Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10",10,2N7002,,,,Package_TO_SOT_SMD:SOT-23,https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
+Q11,1,BC848C,,,,Package_TO_SOT_SMD:SOT-23,http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+Q12,1,BCP51,,,,Package_TO_SOT_SMD:SOT-223-3_TabPin2,https://www.onsemi.com/pub/Collateral/BCP51-D.pdf
+"R1,R2,R3,R4",4,60R4,,,,Resistor_SMD:R_0805_2012Metric,~
+"R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R26,R28,R63,R64",22,10k,,,,Resistor_SMD:R_0805_2012Metric,~
+R23,1,1.7k,,,,Resistor_SMD:R_0805_2012Metric,~
+R24,1,360R,,,,Resistor_SMD:R_0805_2012Metric,~
+"R25,R27",2,5.1k,,,,Resistor_SMD:R_0805_2012Metric,~
+U1,1,TJA1448ATK,,,,Package_DFN_QFN:DFN-14-1EP_3x4.5mm_P0.65mm_EP1.65x4.25mm,https://www.nxp.com/docs/en/data-sheet/TJA1145.pdf
+U2,1,REF3433T,,,,Package_TO_SOT_SMD:SOT-23-6,https://www.ti.com/lit/ds/symlink/ref35.pdf
+U3,1,TLV76150DCY,,,,Package_TO_SOT_SMD:SOT-223-3_TabPin2,https://www.ti.com/lit/ds/symlink/tlv761.pdf
