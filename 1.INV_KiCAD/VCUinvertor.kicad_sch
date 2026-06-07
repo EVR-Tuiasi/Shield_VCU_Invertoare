@@ -4035,129 +4035,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Reference_Voltage:REF35500QDBVR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6929,6 +6806,12 @@
 		(uuid "00e5b4cd-ff71-4924-bfa1-8cbb69d10916")
 	)
 	(junction
+		(at 370.84 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "038889dc-a5b9-4670-8d98-d3226534c05f")
+	)
+	(junction
 		(at 314.96 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6975,12 +6858,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1839db7b-5107-4c91-9ad1-f1aa54ff3c57")
-	)
-	(junction
-		(at 372.11 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ab98d41-9b8b-406a-950f-c649a79bb3ee")
 	)
 	(junction
 		(at 224.79 207.01)
@@ -7059,6 +6936,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41a87c49-5f5a-49ce-b465-7df59c63ef19")
+	)
+	(junction
+		(at 361.95 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41c0585a-849a-4bb1-8ad3-41f26435d197")
 	)
 	(junction
 		(at 312.42 144.78)
@@ -7185,12 +7068,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7182a925-65b5-477f-9343-7fd39b71f8a0")
-	)
-	(junction
-		(at 372.11 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72ba4ca4-9559-484e-bab8-38f690ef7027")
 	)
 	(junction
 		(at 193.04 252.73)
@@ -8922,16 +8799,6 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 177.8) (xy 372.11 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34f810ef-8695-43b5-bb4f-e65fd4c86d2f")
-	)
-	(wire
-		(pts
 			(xy 298.45 72.39) (xy 298.45 78.74)
 		)
 		(stroke
@@ -9069,16 +8936,6 @@
 			(type default)
 		)
 		(uuid "3d9645c6-6678-4481-84e0-0a535b45c5ed")
-	)
-	(wire
-		(pts
-			(xy 360.68 241.3) (xy 370.84 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d989486-6688-4f32-be9b-cbf9523bbb47")
 	)
 	(wire
 		(pts
@@ -9882,16 +9739,6 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 184.15) (xy 372.11 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61a19000-2577-4971-90de-9334e4004050")
-	)
-	(wire
-		(pts
 			(xy 287.02 143.51) (xy 287.02 146.05)
 		)
 		(stroke
@@ -9919,6 +9766,16 @@
 			(type default)
 		)
 		(uuid "6437e79f-a4b0-4bed-bafd-f65d0fa3a800")
+	)
+	(wire
+		(pts
+			(xy 360.68 241.3) (xy 361.95 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6463c237-f8a0-467e-b308-2066e4f6ccab")
 	)
 	(polyline
 		(pts
@@ -10160,16 +10017,6 @@
 			(type default)
 		)
 		(uuid "6febd972-2289-4e7a-a072-0bba088b530f")
-	)
-	(wire
-		(pts
-			(xy 372.11 184.15) (xy 378.46 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "709985f1-b1af-4c3f-a022-9f4a59ab9630")
 	)
 	(wire
 		(pts
@@ -10573,16 +10420,6 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 184.15) (xy 372.11 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87c0b485-5796-4a14-b6ad-1376a2f04483")
-	)
-	(wire
-		(pts
 			(xy 193.04 223.52) (xy 204.47 223.52)
 		)
 		(stroke
@@ -10830,16 +10667,6 @@
 			(type default)
 		)
 		(uuid "91b0eb5a-c17a-439b-a074-47a92d22d78e")
-	)
-	(wire
-		(pts
-			(xy 372.11 177.8) (xy 378.46 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "921f2a63-573d-468f-b510-0e8807a405e3")
 	)
 	(wire
 		(pts
@@ -11213,6 +11040,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 231.14) (xy 361.95 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5286241-7a10-4d70-b981-720538812200")
+	)
+	(wire
+		(pts
 			(xy 353.06 224.79) (xy 355.6 224.79)
 		)
 		(stroke
@@ -11583,6 +11420,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 219.71) (xy 361.95 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6cdad85-278d-4767-83ad-fe38ff878d3b")
+	)
+	(wire
+		(pts
 			(xy 127 177.8) (xy 127 179.07)
 		)
 		(stroke
@@ -11773,16 +11620,6 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 177.8) (xy 372.11 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bddf10ee-45f1-474f-b5c8-b8af046be704")
-	)
-	(wire
-		(pts
 			(xy 218.44 44.45) (xy 226.06 44.45)
 		)
 		(stroke
@@ -11840,6 +11677,16 @@
 			(type default)
 		)
 		(uuid "bf5e637b-e6d9-4c51-a151-264e34d4be52")
+	)
+	(wire
+		(pts
+			(xy 361.95 219.71) (xy 370.84 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfac4090-1b91-4d00-bc3c-4dac2da2ef1e")
 	)
 	(wire
 		(pts
@@ -12810,6 +12657,16 @@
 			(type default)
 		)
 		(uuid "fb60e024-9580-46a3-9973-1a1bd2a6d714")
+	)
+	(wire
+		(pts
+			(xy 361.95 241.3) (xy 370.84 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb6ad7d7-047b-405e-add0-e7903e4fc55b")
 	)
 	(wire
 		(pts
@@ -20120,82 +19977,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 361.95 177.8 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2d83ac79-a116-4722-bc73-7eb28a21ef11")
-		(property "Reference" "H1"
-			(at 357.378 177.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 372.618 173.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 361.95 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 361.95 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 361.95 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b3ae9ee4-353d-4cbe-83f2-f18e960e3bca")
-		)
-		(instances
-			(project "VCUinvertor"
-				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 127 163.83 0)
 		(unit 1)
@@ -21564,86 +21345,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 381 184.15 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "419125c5-305a-4e55-adc9-d51e0f68ec09")
-		(property "Reference" "H4"
-			(at 384.81 182.8799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 384.81 185.4199 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 381 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 381 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 381 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0fb355e4-5154-4a7b-a69a-0a7438f5970b")
-		)
-		(instances
-			(project "VCUinvertor"
-				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:SS34")
 		(at 281.94 184.15 270)
 		(unit 1)
@@ -21959,86 +21660,6 @@
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 381 177.8 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4788e9dc-2fdb-4aad-a93f-6f7425f9bfdb")
-		(property "Reference" "H3"
-			(at 384.81 176.5299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 384.81 179.0699 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 381 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 381 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 381 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "453918cb-cb09-4156-a5b8-09f48861d3e9")
-		)
-		(instances
-			(project "VCUinvertor"
-				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -22687,6 +22308,87 @@
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS34")
+		(at 361.95 227.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "53607b98-7d1b-4fbb-b545-6cf22e2b1b09")
+		(property "Reference" "D11"
+			(at 360.426 229.362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34"
+			(at 364.49 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 357.505 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+			(at 361.95 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V 3A Schottky Diode, SMA"
+			(at 361.95 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9963a832-847a-4f09-9e61-0f031a14492d")
+		)
+		(pin "2"
+			(uuid "8ff7c98d-9a7f-4515-886d-5b1f6cfee2db")
+		)
+		(instances
+			(project "VCUinvertor"
+				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -26260,83 +25962,6 @@
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
 					(reference "JO9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 361.95 184.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8015a00e-c070-4fd8-984e-fdd0c1f11689")
-		(property "Reference" "H2"
-			(at 357.124 184.15 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 360.68 180.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 361.95 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 361.95 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 361.95 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2662b5ea-ec99-4b78-ae5b-ddba024ed347")
-		)
-		(instances
-			(project "VCUinvertor"
-				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -31467,85 +31092,6 @@
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 372.11 189.23 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5df90d9-4429-41cd-9664-614f56c68139")
-		(property "Reference" "#PWR018"
-			(at 372.11 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 372.11 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 372.11 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 372.11 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 372.11 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a2825e7-c091-4ed8-bab4-7b163b455b3b")
-		)
-		(instances
-			(project "VCUinvertor"
-				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
