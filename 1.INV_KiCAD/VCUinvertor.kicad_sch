@@ -7416,6 +7416,12 @@
 		(uuid "b8a1ad42-4d67-4de8-97d7-48018fbd4c7e")
 	)
 	(junction
+		(at 93.98 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9d3f260-567e-4df7-85a3-e3b50d38d57c")
+	)
+	(junction
 		(at 201.93 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7456,6 +7462,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cafa0f9f-dfa5-468f-8a84-164d81a732a8")
+	)
+	(junction
+		(at 91.44 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdc35b08-fd8c-48e9-82c7-bbc3e8696592")
 	)
 	(junction
 		(at 191.77 167.64)
@@ -7958,6 +7970,16 @@
 			(type default)
 		)
 		(uuid "02bf1795-edb7-41a9-9375-4a04d96d7d02")
+	)
+	(wire
+		(pts
+			(xy 90.17 20.32) (xy 93.98 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d3e584-d018-43f2-9d76-6db87c77b436")
 	)
 	(wire
 		(pts
@@ -10522,16 +10544,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 29.21) (xy 91.44 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "793f9f61-5cab-4e8f-a3bd-4ffcdde13ac0")
-	)
-	(wire
-		(pts
 			(xy 232.41 219.71) (xy 232.41 220.98)
 		)
 		(stroke
@@ -11952,6 +11964,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 22.86) (xy 91.44 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c602b60c-cfce-4d2f-8ab9-5b1c3986e95f")
+	)
+	(wire
+		(pts
 			(xy 353.06 73.66) (xy 358.14 73.66)
 		)
 		(stroke
@@ -12149,6 +12171,16 @@
 			(type default)
 		)
 		(uuid "cfaf97b5-f77e-4adf-bd15-024feb037f11")
+	)
+	(wire
+		(pts
+			(xy 90.17 22.86) (xy 91.44 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d00f3440-6192-4489-9272-e3ffae42fdc0")
 	)
 	(wire
 		(pts
@@ -12422,6 +12454,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 22.86) (xy 99.06 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09f1f43-8917-480b-9eda-fc9dc1f2888d")
+	)
+	(wire
+		(pts
 			(xy 355.6 224.79) (xy 355.6 227.33)
 		)
 		(stroke
@@ -12582,6 +12624,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 20.32) (xy 93.98 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e689e0ba-a013-4df2-9df5-e5a03d461409")
+	)
+	(wire
+		(pts
 			(xy 127 167.64) (xy 140.97 167.64)
 		)
 		(stroke
@@ -12609,6 +12661,16 @@
 			(type default)
 		)
 		(uuid "e8c05466-0a49-45d5-9dcf-04b7e8b9c3fe")
+	)
+	(wire
+		(pts
+			(xy 93.98 20.32) (xy 99.06 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93c27e4-8cb0-401e-85c5-60bcff85f870")
 	)
 	(wire
 		(pts
@@ -13049,16 +13111,6 @@
 			(type default)
 		)
 		(uuid "ff105d6b-2bed-4de2-950b-51ed7c81a5d4")
-	)
-	(wire
-		(pts
-			(xy 93.98 29.21) (xy 93.98 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff2b2c85-97d7-4b50-a719-f69d220786d7")
 	)
 	(wire
 		(pts
@@ -33629,8 +33681,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 93.98 24.13 270)
-		(mirror x)
+		(at 85.09 20.32 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33639,8 +33691,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ede16204-cac6-485c-a323-8e181c85f2e1")
-		(property "Reference" "CA1"
-			(at 94.488 26.162 90)
+		(property "Reference" "CAN1"
+			(at 87.376 18.288 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33650,8 +33702,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CAN_OUT_NXP"
-			(at 85.598 22.606 90)
+		(property "Value" "CAN_IN_NXP"
+			(at 84.074 21.844 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33661,8 +33713,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 93.98 24.13 0)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 85.09 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33673,7 +33725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 24.13 0)
+			(at 85.09 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33684,7 +33736,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 93.98 24.13 0)
+			(at 85.09 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33703,7 +33755,7 @@
 		(instances
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "CA1")
+					(reference "CAN1")
 					(unit 1)
 				)
 			)
@@ -34655,6 +34707,87 @@
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 104.14 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fef780b8-43db-4865-8c01-d8cf6916228b")
+		(property "Reference" "CAN2"
+			(at 101.346 18.288 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAN_OUT_NXP"
+			(at 105.156 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 104.14 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 104.14 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b79ced7-4b9a-4e2d-98ce-53444c99e950")
+		)
+		(pin "2"
+			(uuid "4ecdc2bd-86ff-4037-b0e5-5b95cd013fcb")
+		)
+		(instances
+			(project "VCUinvertor"
+				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
+					(reference "CAN2")
 					(unit 1)
 				)
 			)
