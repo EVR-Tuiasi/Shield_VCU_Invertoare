@@ -748,7 +748,7 @@
         "uuid": "2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
       }
     ],
-    "used_designators": "CA2",
+    "used_designators": "CA2,J10,CAN3,R62,R65-69,#PWR16,#PWR18,#PWR20,#PWR22,#PWR24,#PWR26,#PWR59-63,TEMP2-4,U4,C13,P2",
     "variants": []
   },
   "sheets": [
