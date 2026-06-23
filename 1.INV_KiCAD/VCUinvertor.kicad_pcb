@@ -89,6 +89,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "02e7b54c-1d0b-422b-b4a8-044d133b1871")
 		(at 103.697759 125.17653 -90)
@@ -225,6 +226,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "03a6f06b-667a-4bca-aacb-a9f21b3f4397")
 		(at 81.87551 100.94274 180)
@@ -396,6 +398,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "0460c99a-de12-4cbd-a433-f2d06809a9f1")
 		(at 103.70051 128.820716 -90)
@@ -532,6 +535,7 @@
 		)
 	)
 	(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "0a0a037b-08e7-4a52-babf-e329344d7a54")
 		(at 71.88051 54.21274 180)
@@ -843,6 +847,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "0e2aafe5-3510-404c-b82d-ba69f4f7a287")
 		(at 118.72551 124.56774)
@@ -1014,6 +1019,7 @@
 		)
 	)
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "0f752d5e-5954-4b56-9fab-d394babaad11")
 		(at 97.70051 48.04274 90)
@@ -1320,6 +1326,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "128209c3-8511-43a4-931d-6e4ea53c0c69")
 		(at 143.80051 108.55524 180)
@@ -1457,6 +1464,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "12fec4ef-a59c-48e0-9543-64b41840a2a4")
 		(at 148.32551 130.09274)
@@ -1592,6 +1600,7 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "197bb0a5-0bb7-4fe2-ad22-21020bdac992")
 		(at 101.41977 72.36673)
@@ -1742,6 +1751,7 @@
 		)
 	)
 	(footprint "Diode_SMD:D_SMA"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "19bbad17-de8f-4a0c-8e36-511e82080c37")
 		(at 103.50051 46.84274 90)
@@ -2035,6 +2045,7 @@
 		)
 	)
 	(footprint "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "1d11e71c-a034-42e9-a2bc-b76a3d75b846")
 		(at 77.91051 113.70274 90)
@@ -2483,6 +2494,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "1d8b401e-41e4-4354-a4a2-1da1f80188f3")
 		(at 134.92551 158.23548 180)
@@ -2644,6 +2656,7 @@
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "23a849a5-9018-4484-9915-f043ce8ffaa7")
 		(at 129.665365 128.775114)
@@ -3030,6 +3043,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "23beb347-2cc3-47da-8214-236933b16887")
 		(at 144.50051 123.76774 180)
@@ -3166,6 +3180,7 @@
 		)
 	)
 	(footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "23d3173e-2afd-4d2d-ad40-dd00bd185dd0")
 		(at 69.99051 98.58274 -90)
@@ -3566,6 +3581,7 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "26687fcf-2b95-4199-ba2c-704b2f8dc4bf")
 		(at 118.50051 82.65524 90)
@@ -4127,6 +4143,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "2829de09-bbca-4376-bb49-03e665b15214")
 		(at 148.311119 146.388147)
@@ -4263,6 +4280,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "29afea5e-4c87-45a2-a4bc-dcfa8d55f3b0")
 		(at 124.97551 157.23548)
@@ -4424,6 +4442,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "2bbd47f0-c918-4550-82fb-bd453532e7a7")
 		(at 148.579405 108.568916)
@@ -4560,6 +4579,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "2bf043b9-e80e-4271-b5d4-32f91f401f5c")
 		(at 118.70051 143.09274)
@@ -4731,6 +4751,7 @@
 		)
 	)
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "2cf4c83c-1748-4f61-876b-1fb4456ce809")
 		(at 123.25051 48.14274 90)
@@ -5037,6 +5058,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "3274b216-f05d-4460-8a3e-bed4901fc63f")
 		(at 134.964646 78.98611)
@@ -5198,6 +5220,7 @@
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "32fe35ee-4339-4489-a114-bfc76f3d0ad5")
 		(at 129.66301 147.34274)
@@ -5584,6 +5607,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "330b0f3e-3280-4bfc-9f91-1cac51343d0b")
 		(at 148.30051 134.26774)
@@ -5720,6 +5744,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "33242457-5fea-473f-aeb9-8caf624ef543")
 		(at 135.167355 139.785114 180)
@@ -5881,6 +5906,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "35fd12bc-d368-4af9-aad7-c42eb65bef47")
 		(at 135.105183 91.221555 180)
@@ -6042,6 +6068,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "36b8fa1b-e1d4-492b-b30d-bda9082016fd")
 		(at 118.75051 135.71774)
@@ -6213,6 +6240,7 @@
 		)
 	)
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "37797d81-e2c8-4e34-b97b-7ed88612a1f4")
 		(at 135.965511 48.042741 90)
@@ -6656,6 +6684,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "3c91b5f9-c0b4-4822-8903-54365b0e8f89")
 		(at 124.977865 128.157854)
@@ -6817,6 +6846,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "3c9aa5f7-54db-49c0-97c6-f12a5235255c")
 		(at 127.29051 75.66274 180)
@@ -6990,6 +7020,7 @@
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "3cde5200-14c8-48ca-ac4b-e0eaa8e52b3b")
 		(at 129.66301 151.09274)
@@ -7376,6 +7407,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "3d0365e1-c646-4730-883c-c66075088f43")
 		(at 148.579405 112.856416)
@@ -7521,6 +7553,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "3e4edb0c-e082-40db-89be-139c3d6eb95e")
 		(at 135.167355 132.470114 180)
@@ -7682,6 +7715,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "3eaa50c0-3301-49b1-bc1e-37044f429e26")
 		(at 118.75051 131.99274)
@@ -7853,6 +7887,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "3fafa55b-8c64-4a44-a1c6-622b606d4a4b")
 		(at 124.977865 135.017854)
@@ -8014,6 +8049,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "40c6826b-d584-459e-b539-d4029759297f")
 		(at 148.579405 98.766416)
@@ -8259,6 +8295,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "4511cafb-0103-4bb1-98e6-6862e4b0bba7")
 		(at 110.45051 48.04274 90)
@@ -8565,6 +8602,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "477a8480-b72a-4bc2-b504-f8110f2695bd")
 		(at 139.37051 82.97274)
@@ -8700,6 +8738,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "484e559e-6dc8-4cf4-b460-69556a6ade17")
 		(at 148.579405 103.053916)
@@ -8845,6 +8884,7 @@
 		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "48702e05-5252-4db4-898b-b23762f2310c")
 		(at 115.90051 52 -90)
@@ -8955,6 +8995,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "48d89460-0281-4b59-96f0-63c7b3e4913f")
 		(at 134.96051 86.58274)
@@ -9226,6 +9267,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "4c26ee44-b145-442e-86f5-241ad29fdeb5")
 		(at 118.70051 120.89274)
@@ -9397,6 +9439,7 @@
 		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "504a58dc-8849-46f5-bf97-8bf2a27ae14e")
 		(at 69.27551 59.41774)
@@ -9507,6 +9550,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "5356428e-dc85-45b8-a6f0-8d38747fe747")
 		(at 144.50051 132.19274 180)
@@ -9643,6 +9687,7 @@
 		)
 	)
 	(footprint "Diode_SMD:D_SMA"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "54158f51-9d66-4cd8-bd54-c2df45247d35")
 		(at 141.69051 46.84274 90)
@@ -9936,6 +9981,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "55f25a48-4491-4e5a-a0c9-350081edab72")
 		(at 147.35051 65.87274)
@@ -10071,6 +10117,7 @@
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "588978d3-71a3-42a5-921f-240f9e0267fe")
 		(at 129.665365 132.425114)
@@ -10457,6 +10504,7 @@
 		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "58d9a4b3-2f61-4d11-b2eb-b88b2c36e25f")
 		(at 92.72551 52 -90)
@@ -10567,6 +10615,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "58e1632d-ab85-4f6a-b19f-6a4cd70a1926")
 		(at 118.67551 146.81774)
@@ -10738,6 +10787,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "5958c1cc-e5f9-42f7-b30a-b00923c7616c")
 		(at 144.461118 152.663146)
@@ -10874,6 +10924,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "5d801606-a4ba-4ffc-b3e5-1cc7e29dea88")
 		(at 135.12551 143.63548 180)
@@ -11035,6 +11086,7 @@
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "6455ca8a-30da-479f-9053-fbfb30f174c0")
 		(at 129.66301 143.54274)
@@ -11421,6 +11473,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "68a1f59d-5f42-46bc-ba87-752a84424b4f")
 		(at 124.977865 131.587854)
@@ -11582,6 +11635,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "69845758-d1f0-4361-90ca-79c7720a2fda")
 		(at 124.97551 142.53548)
@@ -11743,6 +11797,7 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "6a4acf1e-c172-4934-8009-69ce7b2a7fe1")
 		(at 120.80051 82.65524 90)
@@ -11904,6 +11959,7 @@
 		)
 	)
 	(footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "6af67144-e09b-4473-929f-117d63735952")
 		(at 75.65051 98.552741 -90)
@@ -12441,6 +12497,7 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "703c6c42-5498-49ce-a3bb-e584539e5d4e")
 		(at 134.964646 81.31611)
@@ -12604,6 +12661,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "7ac4fe42-9b93-4910-9d65-7e258d883a64")
 		(at 148.279295 142.192495)
@@ -12740,6 +12798,7 @@
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "7b879af5-ea46-476e-8af0-ed84268a3499")
 		(at 129.677865 139.625114)
@@ -13125,6 +13184,7 @@
 		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "7cd04214-bd99-4d98-afe6-33a93ee8ec41")
 		(at 104.97551 52 -90)
@@ -13235,6 +13295,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "7cd2bfa7-db08-4b4b-a85a-f78c8aa52ff5")
 		(at 103.697759 121.57653 -90)
@@ -13371,6 +13432,7 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "7de15117-ea6f-44fa-8bab-dbffd5a6e696")
 		(at 134.96051 88.90937)
@@ -13534,6 +13596,7 @@
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "810eec2a-2a86-45a4-a173-2c5d63dfa29f")
 		(at 129.665365 136.075114)
@@ -13920,6 +13983,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "8477448a-e8d1-4080-83d2-f921fac11417")
 		(at 135.167355 128.812614 180)
@@ -14081,6 +14145,7 @@
 		)
 	)
 	(footprint "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_2-G-7,62_1x02_P7.62mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "87925c5c-9aee-401c-8662-6db503d7c52a")
 		(at 74.55551 34.82024 180)
@@ -14447,6 +14512,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "8c068daf-ec56-4b3f-ad7c-a22425c81cfb")
 		(at 134.92551 154.63548 180)
@@ -14608,6 +14674,7 @@
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "8ce3fe91-0f9b-4710-9fbd-4fd7d6dd5342")
 		(at 129.66301 154.59274)
@@ -14994,6 +15061,7 @@
 		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "8dbbc52d-572c-4bae-8c17-950e6306890b")
 		(at 128.45051 52 -90)
@@ -15104,6 +15172,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "8e5849da-5dae-4a65-9254-f7c284eb0f5e")
 		(at 135.167355 136.127614 180)
@@ -15265,6 +15334,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "9459c4da-e259-4baf-9d77-326897fef080")
 		(at 113.80051 151.06774 -90)
@@ -16169,6 +16239,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "973df696-ce63-49c2-b7e8-cb812c568e9e")
 		(at 102.31977 83.66673)
@@ -16330,6 +16401,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "999f8271-6adc-4f75-a0d6-ab4b1c6ca2cd")
 		(at 124.97551 146.21048)
@@ -16491,6 +16563,7 @@
 		)
 	)
 	(footprint "Diode_SMD:D_SMA"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "9c0f8508-1ab6-4ec0-b733-8ba549c88171")
 		(at 129.05051 46.84274 90)
@@ -16784,6 +16857,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "9c915636-3c73-4642-93c9-fe6a85523e72")
 		(at 118.72551 139.39274)
@@ -17065,6 +17139,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "9e1f4b61-785d-4a01-a806-36d9cc1026b6")
 		(at 139.48051 87.28274)
@@ -17201,6 +17276,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "a04ea08b-9b9c-4d9c-a567-16f6419ca3da")
 		(at 134.10051 114.49274 -90)
@@ -17338,6 +17414,7 @@
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "a24f9722-01cd-4b96-b1ba-7acf0f69dd35")
 		(at 101.38426 78.118989 -90)
@@ -17623,6 +17700,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "a7da4c55-4a09-4751-a6c9-c3215cffeb86")
 		(at 120.88051 73.92274 180)
@@ -17796,6 +17874,7 @@
 		)
 	)
 	(footprint "Diode_SMD:D_SMC"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "a8278be8-fc27-4083-9116-84a8c3a08fdb")
 		(at 70.65051 45.44274 180)
@@ -18089,6 +18168,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "acb44c86-f883-4562-ba6e-671fc645c036")
 		(at 81.72551 98.21774 180)
@@ -18260,6 +18340,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b04a9c13-a7c7-4b23-9cf7-be31ccee885d")
 		(at 134.92551 150.94274 180)
@@ -18531,6 +18612,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "TJA1448:NXP-TJA1448A_NXP"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b3a7230a-d1a1-409f-88d4-da5c79c564a4")
 		(at 126.89466 84.99274)
@@ -19520,6 +19602,7 @@
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b4a99977-9616-48eb-a927-4a5258208300")
 		(at 129.665365 125.125114)
@@ -19906,6 +19989,7 @@
 		)
 	)
 	(footprint "Diode_SMD:D_SOD-123"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b4b8e228-6003-47b5-a328-1c1747fbce64")
 		(at 96.48176 78.04899 -90)
@@ -20209,6 +20293,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b4bd8aa4-655f-480c-bf06-6fa3a38619cf")
 		(at 147.357706 70.137729)
@@ -20344,6 +20429,7 @@
 		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b5d033d7-6010-4e7e-b108-fd376e598dbc")
 		(at 101.65051 87.31774)
@@ -20455,6 +20541,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Library_GHST:Relay_IM06DGR"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b8f166bb-9cfe-43a8-8eb4-c631c5663599")
 		(at 131.57051 65.74274 90)
@@ -20752,6 +20839,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b911aa17-9850-4081-b6d8-c74208db6144")
 		(at 101.67551 91.34274 -90)
@@ -20923,6 +21011,7 @@
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "bd657bd7-dfd2-4270-909f-90c134f0cfda")
 		(at 129.66301 158.29274)
@@ -21308,6 +21397,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "bf5011b4-c313-44b9-bcca-7d4c2648104e")
 		(at 134.964646 83.64611 180)
@@ -21469,6 +21559,7 @@
 		)
 	)
 	(footprint "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "bff1c7fb-281a-446b-856e-c84b0777ef3a")
 		(at 70.94051 113.70274 90)
@@ -21917,6 +22008,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c020f4bd-d714-400e-93b4-175f0e03e7fb")
 		(at 136.25051 110.59274 90)
@@ -22053,6 +22145,7 @@
 		)
 	)
 	(footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c045755b-aca1-4796-85f2-212ea12e9087")
 		(at 101.67551 95.867741 90)
@@ -22279,6 +22372,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c05d8088-2f42-4ab2-8893-b3b85ada8b52")
 		(at 124.97551 149.88548)
@@ -22440,6 +22534,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c1106ceb-6589-435a-8e91-9144a2c59038")
 		(at 144.50051 127.99274)
@@ -22737,6 +22832,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c328f9a0-2545-41a7-8148-fe063195ff49")
 		(at 124.97551 153.56048)
@@ -22898,6 +22994,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c3ccc192-38ce-42c2-a5a3-f9ab81f7b694")
 		(at 135.12551 147.33548 180)
@@ -23059,6 +23156,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c47be0f8-f1cc-47c0-9756-82200b3ddacc")
 		(at 124.977865 138.447854)
@@ -23220,6 +23318,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c73402db-6b59-42df-9b93-eb8a2be586af")
 		(at 144.479294 140.092497)
@@ -23356,6 +23455,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c7b8b30b-9552-495b-91d8-69f0a9a58294")
 		(at 139.37051 79.34274)
@@ -23652,6 +23752,7 @@
 		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c9812b51-bb5c-419e-9466-6bff302000d3")
 		(at 86.55051 48.04274 180)
@@ -23774,6 +23875,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c9fea4cc-b902-43b7-a3f6-ae228e8a48b8")
 		(at 124.927865 124.027854)
@@ -23935,6 +24037,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "d04f02ce-8ec5-4e52-a23d-d067bc725aad")
 		(at 143.75051 98.75274)
@@ -24070,6 +24173,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "d068e6ba-6922-4cea-a634-3b1c70ae8c88")
 		(at 144.471014 144.292495)
@@ -24206,6 +24310,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "d0ffa12c-dcf9-4c5c-8d0e-2c6ca7095d20")
 		(at 144.486118 148.463147)
@@ -24342,6 +24447,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "d10322b1-f349-434d-bbb8-384060317328")
 		(at 148.32551 125.89274 180)
@@ -24478,6 +24584,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "d239c2b9-df63-4288-a36a-1244c2a1b498")
 		(at 118.77551 150.49274)
@@ -24649,6 +24756,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "d3eb2ff9-b440-466e-bba2-d0eea6daac0a")
 		(at 132.55051 110.59274 -90)
@@ -24922,6 +25030,7 @@
 		)
 	)
 	(footprint "Diode_SMD:D_SMA"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "e0a50d38-b9a9-4a3f-a500-6e2cd6de00fe")
 		(at 116.20051 46.84274 90)
@@ -25215,6 +25324,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "e8c88c91-9482-49e5-872a-6f58468140d2")
 		(at 143.80051 112.84274)
@@ -25351,6 +25461,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "ec1cea29-f3cd-4642-9082-c164ce50ddba")
 		(at 139.49051 90.91274)
@@ -26599,6 +26710,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "edf3f75e-99a2-4590-8de5-563052dd96e4")
 		(at 148.279295 150.567496)
@@ -26735,6 +26847,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "f10c3b6e-32a1-4a5d-acde-9caddad6acd1")
 		(at 148.293686 121.66774)
@@ -27268,6 +27381,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "f44bc430-afc8-4311-ad4b-ae45d2542ef0")
 		(at 135.167355 125.155114 180)
@@ -27429,6 +27543,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "f459b867-fb6d-447b-b264-706c8c521336")
 		(at 143.75051 103.04024 180)
@@ -27726,6 +27841,7 @@
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "f8c68703-7687-4a1b-8a40-51ba44129080")
 		(at 130.40051 114.49274 -90)
@@ -27863,6 +27979,7 @@
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "fa61a1ea-1193-4e26-8a07-54fdfbc77516")
 		(at 127.82051 72.20524 90)
@@ -28258,6 +28375,7 @@
 		)
 	)
 	(footprint "Diode_SMD:D_SMA"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "fcb2cfee-779b-41de-900b-85672451a84b")
 		(at 141.01051 71.40274 -90)
@@ -28551,6 +28669,7 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "fd33fdc8-f259-47b7-95c4-9c08182ba03c")
 		(at 118.75051 128.31774)
@@ -28893,6 +29012,7 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "1a394a25-7464-49d7-a419-0e8938efef98")
 		(at 91.95051 49.89274 180)
@@ -29071,6 +29191,7 @@
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-143_Handsoldering"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "1b79f738-46a8-4f46-9598-177114033f4c")
 		(at 93.10051 46.04274 -90)
@@ -29341,6 +29462,7 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "2a8caae0-ec86-400b-bc3f-e7c1a854edc4")
 		(at 130.24051 49.89274 180)
@@ -29519,6 +29641,7 @@
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-143_Handsoldering"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "47d5b0b7-a62e-4384-9b68-be415675e791")
 		(at 118.721343 46.04274 -90)
@@ -29789,6 +29912,7 @@
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-143_Handsoldering"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "5537c83b-8455-4adc-bef6-0ecc73bc8722")
 		(at 131.39051 46.04274 -90)
@@ -30059,6 +30183,7 @@
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-143_Handsoldering"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "5d94e595-9423-4d89-bfb6-cc8034b02912")
 		(at 105.85051 46.04274 -90)
@@ -30757,6 +30882,7 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "6db2160d-5eb0-42ce-b225-9bd3e272a4ed")
 		(at 117.45051 49.99274 180)
@@ -30935,6 +31061,7 @@
 		)
 	)
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "929b60af-7ab8-475c-8aa3-3ebc41d790ba")
 		(at 124.38051 41.04274 180)
@@ -31207,6 +31334,7 @@
 		)
 	)
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "9491ea88-16e4-4e3c-ae29-e8cb106d47a4")
 		(at 98.80051 41.04274 180)
@@ -32179,6 +32307,7 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "aee5cc26-d218-40a1-814c-bd20829b1217")
 		(at 130.24051 52.29274 180)
@@ -32357,6 +32486,7 @@
 		)
 	)
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "b4268684-2164-4eb3-aa46-6c65b1f933dd")
 		(at 137.14051 41.04274 180)
@@ -32629,6 +32759,7 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "b578b3b3-e7d7-4b8d-ae42-b065692d5ec4")
 		(at 117.45051 52.29274 180)
@@ -32807,6 +32938,7 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "c08bc4a1-b682-4729-832d-5cb114226e21")
 		(at 91.95051 52.29274 180)
@@ -32985,6 +33117,7 @@
 		)
 	)
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "c2794e52-267a-49a2-9aa7-f2daa7dbcccf")
 		(at 111.58051 40.99274 180)
@@ -33728,6 +33861,7 @@
 		)
 	)
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "ccc784c1-527e-4e05-a24e-df618bde2915")
 		(at 127.12551 83.71774 180)
@@ -34480,6 +34614,7 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "e5952270-a47b-416d-b7a8-12b1f3d7d6ff")
 		(at 104.80051 49.94274 180)
@@ -34658,6 +34793,7 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "e932f189-9bc5-4cfe-b6ed-dfb2b3bfec4b")
 		(at 104.80051 52.34274 180)
@@ -44055,7 +44191,7 @@
 	(segment
 		(start 66.93551 34.82024)
 		(end 66.93551 45.12774)
-		(width 1.2)
+		(width 2)
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "e50f7aff-70a3-4730-be9d-ed130a6dcce6")
@@ -44660,12 +44796,20 @@
 		(uuid "07298763-c6e0-4451-a518-ceb09736fd6a")
 	)
 	(segment
-		(start 135.965511 48.042741)
-		(end 129.85051 48.042741)
-		(width 1)
+		(start 135.95051 69.89274)
+		(end 134.38051 68.32274)
+		(width 0.25)
 		(layer "F.Cu")
 		(net "BAT+")
-		(uuid "07bcbb9c-a664-4841-a766-fd4727706788")
+		(uuid "09cdc884-d6d8-4458-9682-ec893847dc6d")
+	)
+	(segment
+		(start 103.50051 48.842741)
+		(end 104.300511 48.04274)
+		(width 1.8)
+		(layer "F.Cu")
+		(net "BAT+")
+		(uuid "0cbff21c-bbca-4d02-878e-1e0bbb4843e3")
 	)
 	(segment
 		(start 99.08426 73.78399)
@@ -44676,14 +44820,6 @@
 		(uuid "0e357a13-4fa9-4f90-995c-bac8d7af0e94")
 	)
 	(segment
-		(start 134.38051 68.32274)
-		(end 134.38051 65.46274)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "BAT+")
-		(uuid "0f69651f-9fe1-4634-976b-80e0690008a3")
-	)
-	(segment
 		(start 74.40051 45.79274)
 		(end 74.40051 45.09274)
 		(width 1)
@@ -44692,12 +44828,20 @@
 		(uuid "109365ba-fe91-4801-99f2-8d1db4a6050e")
 	)
 	(segment
-		(start 146.52551 58.36774)
-		(end 146.52551 53.86774)
-		(width 0.7)
+		(start 114.22551 48.04274)
+		(end 115.400509 48.04274)
+		(width 1.8)
 		(layer "F.Cu")
 		(net "BAT+")
-		(uuid "1823119c-5468-4291-847e-8aeeca2e3346")
+		(uuid "1d8225e2-9b2f-4eff-9e3f-6a64acd95f55")
+	)
+	(segment
+		(start 104.300511 48.04274)
+		(end 110.45051 48.04274)
+		(width 1.8)
+		(layer "F.Cu")
+		(net "BAT+")
+		(uuid "20684de9-c153-4456-84e3-24ec9a1dc5b3")
 	)
 	(segment
 		(start 74.05051 49.64274)
@@ -44732,12 +44876,12 @@
 		(uuid "311d74de-7d9f-4268-848b-a831df90e5b4")
 	)
 	(segment
-		(start 116.20051 48.842741)
-		(end 111.250511 48.842741)
-		(width 1)
+		(start 128.250509 48.04274)
+		(end 135.965511 48.042741)
+		(width 1.8)
 		(layer "F.Cu")
 		(net "BAT+")
-		(uuid "3519d5f7-691b-484f-8751-dcc974f57eef")
+		(uuid "31accd03-b758-4cdd-9aa4-d2e0972bb472")
 	)
 	(segment
 		(start 137.47051 69.89274)
@@ -44766,10 +44910,18 @@
 	(segment
 		(start 97.70051 48.04274)
 		(end 86.55051 48.04274)
-		(width 1)
+		(width 2)
 		(layer "F.Cu")
 		(net "BAT+")
 		(uuid "36b22541-8b20-4d55-9e73-0df31c79b38f")
+	)
+	(segment
+		(start 136.55051 62.09274)
+		(end 136.77051 62.09274)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "BAT+")
+		(uuid "372ca05c-cac0-4729-a061-63021a7493c8")
 	)
 	(segment
 		(start 99.61926 73.24899)
@@ -44788,36 +44940,28 @@
 		(uuid "3f59eab7-6b68-4292-9634-11ddd3966d81")
 	)
 	(segment
-		(start 129.85051 48.042741)
-		(end 129.05051 48.842741)
-		(width 1)
+		(start 102.700509 48.04274)
+		(end 103.50051 48.842741)
+		(width 1.8)
 		(layer "F.Cu")
 		(net "BAT+")
-		(uuid "4a4a39a6-2999-4a79-a31a-807f9a236079")
+		(uuid "440d7678-fbb3-43ab-a5e8-98c8241b1a0e")
 	)
 	(segment
-		(start 136.77051 62.09274)
-		(end 142.012718 62.09274)
-		(width 0.7)
+		(start 115.400509 48.04274)
+		(end 116.20051 48.842741)
+		(width 1.8)
 		(layer "F.Cu")
 		(net "BAT+")
-		(uuid "4dd67d85-fdbe-4fd4-b7a2-1905de243ab5")
+		(uuid "4a4bd2db-2f1f-4004-92e4-cafb479ef344")
 	)
 	(segment
 		(start 86.55051 48.04274)
 		(end 76.65051 48.04274)
-		(width 1)
+		(width 2)
 		(layer "F.Cu")
 		(net "BAT+")
 		(uuid "522fa14c-c460-4341-8046-1e9e89488637")
-	)
-	(segment
-		(start 129.05051 48.842741)
-		(end 128.330509 48.12274)
-		(width 1)
-		(layer "F.Cu")
-		(net "BAT+")
-		(uuid "5531c4c6-7414-4917-aecc-4bd95a5c99b7")
 	)
 	(segment
 		(start 74.55551 44.93774)
@@ -44828,20 +44972,20 @@
 		(uuid "5a5bfce3-a602-4fee-a023-d0315ccfac7d")
 	)
 	(segment
-		(start 116.900511 48.14274)
-		(end 116.20051 48.842741)
-		(width 1)
+		(start 102.700509 48.04274)
+		(end 104.300511 48.04274)
+		(width 1.8)
 		(layer "F.Cu")
 		(net "BAT+")
-		(uuid "5a70a9e2-e8fa-4a3c-8833-e210d8b49e77")
+		(uuid "5db9049b-442c-477a-9227-620af28cb7c7")
 	)
 	(segment
-		(start 104.300511 48.04274)
-		(end 103.50051 48.842741)
-		(width 1)
+		(start 134.38051 68.32274)
+		(end 134.38051 64.26274)
+		(width 0.25)
 		(layer "F.Cu")
 		(net "BAT+")
-		(uuid "5f68223a-ae00-4d98-86c6-1bed8a6b1878")
+		(uuid "5e5eadef-e4b7-4e70-b31c-c8701b43e0b9")
 	)
 	(segment
 		(start 97.654259 76.39899)
@@ -44852,14 +44996,6 @@
 		(uuid "5fb33cde-2e6e-4047-909b-51596c12f5f2")
 	)
 	(segment
-		(start 103.50051 48.842741)
-		(end 98.500511 48.842741)
-		(width 1)
-		(layer "F.Cu")
-		(net "BAT+")
-		(uuid "61b4e2b3-845a-47e9-90c1-ff0f829c4d03")
-	)
-	(segment
 		(start 137.960511 69.402739)
 		(end 137.47051 69.89274)
 		(width 0.25)
@@ -44868,20 +45004,20 @@
 		(uuid "656960c6-38f6-4b21-9040-bac6752c96e2")
 	)
 	(segment
-		(start 130.57051 62.09274)
-		(end 133.49051 62.09274)
-		(width 0.7)
+		(start 134.77551 48.042741)
+		(end 135.965511 48.042741)
+		(width 1.6)
 		(layer "F.Cu")
 		(net "BAT+")
-		(uuid "699225e8-3c01-4687-a27f-1b97e25333fb")
+		(uuid "6e30e31c-5b98-4fc3-9feb-ad0942439e87")
 	)
 	(segment
-		(start 141.69051 48.842742)
-		(end 140.850508 48.00274)
-		(width 0.7)
+		(start 123.25051 48.14274)
+		(end 123.35051 48.04274)
+		(width 1.8)
 		(layer "F.Cu")
 		(net "BAT+")
-		(uuid "6d5f5073-1bab-4f87-b27c-33dcaf2ad1a9")
+		(uuid "6f533bea-3f24-42c3-a0f3-d84569a2f61a")
 	)
 	(segment
 		(start 96.48176 76.39899)
@@ -44900,28 +45036,12 @@
 		(uuid "70c2f575-59b9-4a18-b256-aa0cf64ca932")
 	)
 	(segment
-		(start 98.500511 48.842741)
-		(end 97.70051 48.04274)
-		(width 1)
+		(start 110.45051 48.04274)
+		(end 114.22551 48.04274)
+		(width 1.8)
 		(layer "F.Cu")
 		(net "BAT+")
-		(uuid "7d074edf-01d3-4c84-8259-3565ff1be28a")
-	)
-	(segment
-		(start 128.330509 48.12274)
-		(end 123.27051 48.12274)
-		(width 1)
-		(layer "F.Cu")
-		(net "BAT+")
-		(uuid "7d184e82-fb0c-4ada-a5fc-505520153ced")
-	)
-	(segment
-		(start 111.250511 48.842741)
-		(end 110.45051 48.04274)
-		(width 1)
-		(layer "F.Cu")
-		(net "BAT+")
-		(uuid "7d5a2fd3-039c-4ce1-a817-ec8283acbca8")
+		(uuid "768e7afe-aa92-4cd3-b80a-c97538fed679")
 	)
 	(segment
 		(start 71.88051 51.81274)
@@ -44932,6 +45052,38 @@
 		(uuid "7fb0baf0-caba-49f5-a515-4375bac6c283")
 	)
 	(segment
+		(start 136.77051 62.09274)
+		(end 130.57051 62.09274)
+		(width 1)
+		(layer "F.Cu")
+		(net "BAT+")
+		(uuid "818b034f-d565-4ea1-af0b-1c61d450a148")
+	)
+	(segment
+		(start 141.69051 48.842741)
+		(end 141.69051 60.25274)
+		(width 1)
+		(layer "F.Cu")
+		(net "BAT+")
+		(uuid "849e8987-46f1-40ca-9d88-451777f1cd33")
+	)
+	(segment
+		(start 136.77051 69.89274)
+		(end 135.95051 69.89274)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "BAT+")
+		(uuid "90a1dcc5-4a4a-4d8b-a5fe-124312d68f09")
+	)
+	(segment
+		(start 97.70051 48.04274)
+		(end 102.700509 48.04274)
+		(width 1.8)
+		(layer "F.Cu")
+		(net "BAT+")
+		(uuid "935e600e-2c95-45be-a454-103e243ce3ab")
+	)
+	(segment
 		(start 104.02551 66.34274)
 		(end 121.42051 66.34274)
 		(width 0.7)
@@ -44940,17 +45092,17 @@
 		(uuid "962e1d2e-b189-480b-853b-be95a2317b79")
 	)
 	(segment
-		(start 133.49051 62.09274)
-		(end 136.77051 62.09274)
-		(width 0.7)
+		(start 140.89051 48.042741)
+		(end 141.69051 48.842741)
+		(width 1.8)
 		(layer "F.Cu")
 		(net "BAT+")
-		(uuid "9d6b233e-4b30-4f48-b37b-c4e37ec441bc")
+		(uuid "9b8f9a96-6697-4f07-bd82-8ffb2fdb1a00")
 	)
 	(segment
 		(start 74.55551 34.82024)
 		(end 74.55551 44.93774)
-		(width 1.2)
+		(width 2)
 		(layer "F.Cu")
 		(net "BAT+")
 		(uuid "9f6699ce-75a6-4358-b353-717fd4be0ee4")
@@ -44962,22 +45114,6 @@
 		(layer "F.Cu")
 		(net "BAT+")
 		(uuid "9f85a35a-2938-4148-b956-28026f899a0c")
-	)
-	(segment
-		(start 134.38051 65.46274)
-		(end 131.01051 62.09274)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "BAT+")
-		(uuid "a9b6345e-b9fb-41f6-b7fa-d9f09cf1c6b4")
-	)
-	(segment
-		(start 110.45051 48.04274)
-		(end 104.300511 48.04274)
-		(width 1)
-		(layer "F.Cu")
-		(net "BAT+")
-		(uuid "acd85e5d-c0b2-410c-9f18-1f58573cc109")
 	)
 	(segment
 		(start 140.93051 69.322739)
@@ -44996,20 +45132,28 @@
 		(uuid "b52f0742-9d0c-489a-8129-ac0193bbeff3")
 	)
 	(segment
+		(start 139.85051 62.09274)
+		(end 136.77051 62.09274)
+		(width 1)
+		(layer "F.Cu")
+		(net "BAT+")
+		(uuid "bb970c84-3923-404b-99b7-251129e64a6e")
+	)
+	(segment
 		(start 76.65051 48.04274)
 		(end 74.40051 45.79274)
-		(width 1)
+		(width 2)
 		(layer "F.Cu")
 		(net "BAT+")
 		(uuid "bc313460-b884-43f9-8244-130d3c309eed")
 	)
 	(segment
-		(start 146.52551 53.86774)
-		(end 141.69051 49.03274)
-		(width 0.7)
+		(start 123.15051 48.04274)
+		(end 123.25051 48.14274)
+		(width 1.8)
 		(layer "F.Cu")
 		(net "BAT+")
-		(uuid "bfcfecac-9159-4a4a-9b8a-f79a90be7d97")
+		(uuid "c080915b-7cd5-4118-ae05-035699921fa3")
 	)
 	(segment
 		(start 99.61926 72.60474)
@@ -45020,6 +45164,14 @@
 		(uuid "c3d129ea-1a56-449b-acee-54385ec63383")
 	)
 	(segment
+		(start 123.35051 48.04274)
+		(end 128.250509 48.04274)
+		(width 1.8)
+		(layer "F.Cu")
+		(net "BAT+")
+		(uuid "c3f485db-416f-4f5b-8bdc-3185159de6ac")
+	)
+	(segment
 		(start 125.67051 62.09274)
 		(end 130.57051 62.09274)
 		(width 0.7)
@@ -45028,20 +45180,20 @@
 		(uuid "c488d3b7-7602-431e-beae-5c0a796482d8")
 	)
 	(segment
-		(start 123.25051 48.14274)
-		(end 116.900511 48.14274)
-		(width 1)
-		(layer "F.Cu")
-		(net "BAT+")
-		(uuid "c5209546-6ebb-4249-86d6-914da7529d04")
-	)
-	(segment
-		(start 136.77051 69.89274)
-		(end 135.95051 69.89274)
+		(start 134.38051 64.26274)
+		(end 136.55051 62.09274)
 		(width 0.25)
 		(layer "F.Cu")
 		(net "BAT+")
-		(uuid "cb181ae6-6ff7-49d5-83dd-0b5ec6b06590")
+		(uuid "d3c9c54a-3c13-4f6b-8845-12cf481bd320")
+	)
+	(segment
+		(start 115.400509 48.04274)
+		(end 123.15051 48.04274)
+		(width 1.8)
+		(layer "F.Cu")
+		(net "BAT+")
+		(uuid "d5388cb7-661f-4633-b281-42bcf355d3c4")
 	)
 	(segment
 		(start 136.005512 48.00274)
@@ -45068,44 +45220,20 @@
 		(uuid "de8898ac-258b-49bf-8d33-e5f79f736274")
 	)
 	(segment
-		(start 123.27051 48.12274)
-		(end 123.25051 48.14274)
-		(width 1)
+		(start 128.250509 48.04274)
+		(end 129.05051 48.842741)
+		(width 1.8)
 		(layer "F.Cu")
 		(net "BAT+")
-		(uuid "e3c2e796-65d5-4013-89e0-c64e1b98cf42")
+		(uuid "e4718e70-c605-4dea-bdaf-0941c660a577")
 	)
 	(segment
-		(start 135.95051 69.89274)
-		(end 134.38051 68.32274)
-		(width 0.25)
+		(start 135.965511 48.042741)
+		(end 140.89051 48.042741)
+		(width 1.8)
 		(layer "F.Cu")
 		(net "BAT+")
-		(uuid "eaafdb88-e5f6-479d-9c1f-d1b390cf112e")
-	)
-	(segment
-		(start 140.850508 48.00274)
-		(end 136.005512 48.00274)
-		(width 0.7)
-		(layer "F.Cu")
-		(net "BAT+")
-		(uuid "ed882776-5c6d-4e73-bed5-866f6a92e5bf")
-	)
-	(segment
-		(start 142.80051 62.09274)
-		(end 146.52551 58.36774)
-		(width 0.7)
-		(layer "F.Cu")
-		(net "BAT+")
-		(uuid "f264bd32-c1e5-48be-af93-6e98aaac8680")
-	)
-	(segment
-		(start 142.012718 62.09274)
-		(end 142.80051 62.09274)
-		(width 0.7)
-		(layer "F.Cu")
-		(net "BAT+")
-		(uuid "f700a4c3-2f63-449e-a460-4189e2dfea81")
+		(uuid "e5c203fa-54a8-490e-bc5f-3ed065f492a9")
 	)
 	(segment
 		(start 99.85727 70.51098)
@@ -45114,6 +45242,14 @@
 		(layer "F.Cu")
 		(net "BAT+")
 		(uuid "fc576eed-faf0-4552-97f7-8f01d162fc8a")
+	)
+	(segment
+		(start 141.69051 60.25274)
+		(end 139.85051 62.09274)
+		(width 1)
+		(layer "F.Cu")
+		(net "BAT+")
+		(uuid "ff87189d-2cec-46e5-a526-5e49b4b171df")
 	)
 	(segment
 		(start 119.671343 47.963573)
