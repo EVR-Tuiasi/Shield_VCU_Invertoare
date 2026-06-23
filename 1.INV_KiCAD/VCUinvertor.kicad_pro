@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.7,
-          "width": 1.0
+          "height": 1.75,
+          "width": 1.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -94,7 +94,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "error",
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
@@ -764,7 +764,7 @@
         "uuid": "2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
       }
     ],
-    "used_designators": "R53-61,R66,Q11",
+    "used_designators": "Brake_PWM1,Fan_PWM_2-3,Throttle_PWM_3,5V2,JP1,TP1-4,R53-61,R66,Pump_PWM_2,Q11",
     "variants": []
   },
   "sheets": [

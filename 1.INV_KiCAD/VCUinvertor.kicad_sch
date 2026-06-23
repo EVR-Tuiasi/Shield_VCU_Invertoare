@@ -27,7 +27,7 @@
 					)
 				)
 			)
-			(property "Value" "TJA1448ATK"
+			(property "Value" "TJA1448AT"
 				(at -6.604 -20.574 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -70,7 +70,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "CAN FD High Speed CAN Transceiver Sleep VIO Partial Networking SPI"
+			(property "Sim.Device" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -81,7 +81,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "DFN*1EP*3x4.5mm*P0.65mm*"
+			(property "ki_keywords" "CAN FD High Speed CAN Transceiver Sleep VIO Partial Networking SPI"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -358,17 +358,195 @@
 						)
 					)
 				)
-				(pin input line
-					(at 1.27 -21.59 90)
-					(length 2.54)
-					(name "GND"
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Conn_01x02_Socket_1"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J7"
+				(at -3.302 -5.588 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PowerSupply"
+				(at 2.032 -7.112 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_2-G-7,62_1x02_P7.62mm_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_out line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "15"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3552,8 +3730,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U4"
-				(at 0 12.446 0)
+			(property "Reference" "U8"
+				(at 8.128 8.636 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3563,8 +3741,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MIC4416"
-				(at -3.302 9.906 0)
+			(property "Value" "MIC4416 BM4"
+				(at -5.334 -3.048 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3574,7 +3752,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-143_Handsoldering"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3607,7 +3785,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Microchip Micrel BiCMOS DMOS clock-driver clock-buffer MIC426 MIC1426 DS0026"
+			(property "Sim.Device" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3618,7 +3796,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm* MSOP*P0.65mm*"
+			(property "ki_keywords" "Microchip Micrel BiCMOS DMOS clock-driver clock-buffer MIC426 MIC1426 DS0026"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3708,6 +3886,184 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4207,6 +4563,522 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MIC4426_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U5"
+				(at 8.128 8.636 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MIC4416 BM4"
+				(at -5.334 -3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-143_Handsoldering"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC4426-7-8-Dual-1-5A-Peak-Low-Side-MOSFET-DRivers-DS20006202A.pdf"
+				(at 0 -16.764 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual 1.5A-Peak Low-Side MOSFET Driver, 4.5..18V supply voltage, TTL/CMOS compatible inputs, inverting drivers, DIP-8 / SOIC-8 / MSOP-8"
+				(at 0 -14.224 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Microchip Micrel BiCMOS DMOS clock-driver clock-buffer MIC426 MIC1426 DS0026"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MIC4426_1_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 7.62 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MIC4426_1_1_1"
+				(pin power_in line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "GATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "CTRL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MIC4426_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U6"
+				(at 8.128 8.636 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MIC4416 BM4"
+				(at -5.334 -3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-143_Handsoldering"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC4426-7-8-Dual-1-5A-Peak-Low-Side-MOSFET-DRivers-DS20006202A.pdf"
+				(at 0 -16.764 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual 1.5A-Peak Low-Side MOSFET Driver, 4.5..18V supply voltage, TTL/CMOS compatible inputs, inverting drivers, DIP-8 / SOIC-8 / MSOP-8"
+				(at 0 -14.224 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Microchip Micrel BiCMOS DMOS clock-driver clock-buffer MIC426 MIC1426 DS0026"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MIC4426_2_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 7.62 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MIC4426_2_1_1"
+				(pin power_in line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "GATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "CTRL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MIC4426_3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U7"
+				(at 8.128 8.636 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MIC4416 BM4"
+				(at -5.334 -3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-143_Handsoldering"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC4426-7-8-Dual-1-5A-Peak-Low-Side-MOSFET-DRivers-DS20006202A.pdf"
+				(at 0 -16.764 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual 1.5A-Peak Low-Side MOSFET Driver, 4.5..18V supply voltage, TTL/CMOS compatible inputs, inverting drivers, DIP-8 / SOIC-8 / MSOP-8"
+				(at 0 -14.224 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Microchip Micrel BiCMOS DMOS clock-driver clock-buffer MIC426 MIC1426 DS0026"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MIC4426_3_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 7.62 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MIC4426_3_1_1"
+				(pin power_in line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "GATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "CTRL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:TLV76150DCY"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4367,8 +5239,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "K"
-				(at 16.51 3.81 0)
+			(property "Reference" "K1"
+				(at 15.748 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4378,8 +5250,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "IM06"
-				(at 16.51 1.27 0)
+			(property "Value" "IM06DGR"
+				(at 15.748 -0.508 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4389,7 +5261,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Library_GHST:Relay_IM06DGR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4422,7 +5294,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "relay monostable"
+			(property "Sim.Device" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4433,7 +5305,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Relay*DPDT*AXICOM*IMSeries*"
+			(property "ki_keywords" "relay monostable"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6498,6 +7370,12 @@
 		(uuid "041df047-14cb-4935-8f67-c07a38d1059b")
 	)
 	(junction
+		(at 353.06 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0495065d-3e7c-4cdd-b7f7-c82e145cc6eb")
+	)
+	(junction
 		(at 201.93 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6514,6 +7392,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08c30272-a1cf-4d79-8b89-2a542c045f8b")
+	)
+	(junction
+		(at 416.56 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d8afddc-e5e5-4837-b3b2-4b80f9973b66")
 	)
 	(junction
 		(at 115.57 304.8)
@@ -6550,6 +7434,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "240a7d2b-519a-4c86-bfeb-f645ea99d725")
+	)
+	(junction
+		(at 347.98 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26691e5e-5d6e-4cdd-a1c3-1ace0e765184")
 	)
 	(junction
 		(at 21.59 311.15)
@@ -6648,6 +7538,12 @@
 		(uuid "4755be34-79d1-4217-96b8-a9ef293747f0")
 	)
 	(junction
+		(at 257.81 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a5edff8-ad79-4002-ab57-b8174d31ed1c")
+	)
+	(junction
 		(at 287.02 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6660,10 +7556,22 @@
 		(uuid "50c131e3-b06c-4b9c-bfda-dcf46f0d9700")
 	)
 	(junction
+		(at 314.96 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53122cbe-cd0c-4ed6-b450-3c5a4a11a100")
+	)
+	(junction
 		(at 231.14 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "535d1777-e009-40d4-ac01-84518a464fdd")
+	)
+	(junction
+		(at 138.43 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54258f85-a146-4972-aff4-32031a4455ea")
 	)
 	(junction
 		(at 269.24 194.31)
@@ -6834,10 +7742,22 @@
 		(uuid "99dd95e4-41a9-4d6e-aa84-9266260c0200")
 	)
 	(junction
+		(at 350.52 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e703300-fe06-4b94-832e-6c98ae91f67d")
+	)
+	(junction
 		(at 21.59 322.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a300fb1e-4bdf-4391-b319-b763a152134a")
+	)
+	(junction
+		(at 365.76 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3c7bdc7-c31e-42d8-826e-81a10fe1a17f")
 	)
 	(junction
 		(at 232.41 168.91)
@@ -6874,6 +7794,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9d3f260-567e-4df7-85a3-e3b50d38d57c")
+	)
+	(junction
+		(at 345.44 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbd1c8a6-8762-4a7b-b3f0-6dcadef9b219")
 	)
 	(junction
 		(at 201.93 64.77)
@@ -6982,6 +7908,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb25a3cb-5ba2-4dfa-a6b2-2e99d1782521")
+	)
+	(junction
+		(at 226.06 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee5f1706-0f58-421c-ae62-c174ae3f2db5")
 	)
 	(junction
 		(at 102.87 304.8)
@@ -7270,10 +8202,6 @@
 		(uuid "da1acb92-2e11-4494-9dcc-6c854f81857d")
 	)
 	(no_connect
-		(at 229.87 54.61)
-		(uuid "dfb83628-e67c-4b3d-86b0-e98336f1202f")
-	)
-	(no_connect
 		(at 67.31 130.81)
 		(uuid "e6fedbe5-1f11-4df0-9783-e0ce900c8570")
 	)
@@ -7525,7 +8453,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 204.47) (xy 367.03 204.47)
+			(xy 360.68 204.47) (xy 365.76 204.47)
 		)
 		(stroke
 			(width 0)
@@ -7905,16 +8833,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 91.44) (xy 227.33 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e42d790-cce3-41f5-8849-0e0fb6c15aed")
-	)
-	(wire
-		(pts
 			(xy 231.14 143.51) (xy 231.14 144.78)
 		)
 		(stroke
@@ -8035,6 +8953,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 208.28) (xy 260.35 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "264031ae-82d8-4bb0-8832-4fd78ca1d954")
+	)
+	(wire
+		(pts
 			(xy 218.44 52.07) (xy 218.44 53.34)
 		)
 		(stroke
@@ -8045,6 +8973,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 44.45) (xy 229.87 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27830b2b-5e68-4415-9a19-fa1d37fed27e")
+	)
+	(wire
+		(pts
 			(xy 16.51 170.18) (xy 31.75 170.18)
 		)
 		(stroke
@@ -8052,6 +8990,16 @@
 			(type default)
 		)
 		(uuid "27dd3740-3124-4356-8424-3c5072fcbf2a")
+	)
+	(wire
+		(pts
+			(xy 365.76 204.47) (xy 365.76 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27fd5a19-b110-442b-828a-115435fa1928")
 	)
 	(wire
 		(pts
@@ -8405,6 +9353,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 49.53) (xy 345.44 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36252d1a-1285-4c83-9e90-850380e54550")
+	)
+	(wire
+		(pts
 			(xy 144.78 265.43) (xy 147.32 265.43)
 		)
 		(stroke
@@ -8542,16 +9500,6 @@
 			(type default)
 		)
 		(uuid "3fdf788f-a7d1-4ebb-b37a-557481d31ae6")
-	)
-	(wire
-		(pts
-			(xy 339.09 54.61) (xy 373.38 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40de6646-3b4b-48dc-8800-0258e9684b80")
 	)
 	(wire
 		(pts
@@ -8715,6 +9663,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 54.61) (xy 350.52 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c47672-8e8d-4581-886d-7dd78a981e2f")
+	)
+	(wire
+		(pts
 			(xy 176.53 139.7) (xy 185.42 139.7)
 		)
 		(stroke
@@ -8815,7 +9773,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 52.07) (xy 373.38 52.07)
+			(xy 332.74 52.07) (xy 347.98 52.07)
 		)
 		(stroke
 			(width 0)
@@ -9285,7 +10243,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 208.28) (xy 260.35 208.28)
+			(xy 254 208.28) (xy 257.81 208.28)
 		)
 		(stroke
 			(width 0)
@@ -9726,7 +10684,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 207.01) (xy 316.23 207.01)
+			(xy 309.88 207.01) (xy 314.96 207.01)
 		)
 		(stroke
 			(width 0)
@@ -9786,7 +10744,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 57.15) (xy 373.38 57.15)
+			(xy 332.74 57.15) (xy 353.06 57.15)
 		)
 		(stroke
 			(width 0)
@@ -9876,6 +10834,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 49.53) (xy 373.38 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e642287-402a-4046-b047-d75fa0a994be")
+	)
+	(wire
+		(pts
 			(xy 193.04 66.04) (xy 193.04 64.77)
 		)
 		(stroke
@@ -9956,6 +10924,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 208.28) (xy 257.81 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ebe7b3-51d2-409a-a8a0-5aa98690a027")
+	)
+	(wire
+		(pts
 			(xy 138.43 193.04) (xy 143.51 193.04)
 		)
 		(stroke
@@ -9973,6 +10951,16 @@
 			(type default)
 		)
 		(uuid "8454a16a-5c30-4cea-9523-db906acf25e9")
+	)
+	(wire
+		(pts
+			(xy 350.52 44.45) (xy 350.52 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84760768-e1d3-4600-a8f0-c5fa02eeed3f")
 	)
 	(wire
 		(pts
@@ -10146,6 +11134,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 57.15) (xy 373.38 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d935e3f-2378-4c2d-b85a-14ed56573e0e")
+	)
+	(wire
+		(pts
 			(xy 71.12 213.36) (xy 81.28 213.36)
 		)
 		(stroke
@@ -10256,6 +11254,16 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 54.61) (xy 373.38 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9385024c-50b1-4a44-b8b5-8001e7a0032f")
+	)
+	(wire
+		(pts
 			(xy 143.51 100.33) (xy 105.41 100.33)
 		)
 		(stroke
@@ -10316,6 +11324,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 223.52) (xy 151.13 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97113bf7-d934-45fe-a2b2-e79435750972")
+	)
+	(wire
+		(pts
 			(xy 407.67 63.5) (xy 416.56 63.5)
 		)
 		(stroke
@@ -10363,6 +11381,16 @@
 			(type default)
 		)
 		(uuid "9889088f-4177-4450-9ff5-a8e162c9dccc")
+	)
+	(wire
+		(pts
+			(xy 347.98 52.07) (xy 373.38 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a9b4d8-1612-4a04-b663-bcea8953bb56")
 	)
 	(wire
 		(pts
@@ -10526,6 +11554,26 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 46.99) (xy 353.06 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3691df3-300c-40a0-8483-5850531f7f52")
+	)
+	(wire
+		(pts
+			(xy 416.56 204.47) (xy 416.56 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3ed134b-466d-4b6a-b8bb-b18a36cd9643")
+	)
+	(wire
+		(pts
 			(xy 190.5 165.1) (xy 191.77 165.1)
 		)
 		(stroke
@@ -10606,7 +11654,7 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 204.47) (xy 417.83 204.47)
+			(xy 411.48 204.47) (xy 416.56 204.47)
 		)
 		(stroke
 			(width 0)
@@ -10666,6 +11714,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 207.01) (xy 316.23 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aacb6268-2a7a-486e-8a4e-4942707703cd")
+	)
+	(wire
+		(pts
 			(xy 72.39 220.98) (xy 81.28 220.98)
 		)
 		(stroke
@@ -10713,6 +11771,16 @@
 			(type default)
 		)
 		(uuid "ac96b551-3012-4890-920c-a2dcae4f7ab4")
+	)
+	(wire
+		(pts
+			(xy 138.43 220.98) (xy 138.43 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad2dbeb0-1455-4a4e-b1e1-a99df00ba297")
 	)
 	(wire
 		(pts
@@ -11006,16 +12074,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 49.53) (xy 373.38 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc4ffb1a-58cf-4351-9f2c-66186fee662c")
-	)
-	(wire
-		(pts
 			(xy 190.5 139.7) (xy 191.77 139.7)
 		)
 		(stroke
@@ -11106,6 +12164,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 207.01) (xy 314.96 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc77694-e685-4f16-bebd-346fec0c37fc")
+	)
+	(wire
+		(pts
 			(xy 287.02 187.96) (xy 293.37 187.96)
 		)
 		(stroke
@@ -11123,6 +12191,16 @@
 			(type default)
 		)
 		(uuid "c1e69272-ad9a-4e8e-b8e6-17692447d430")
+	)
+	(wire
+		(pts
+			(xy 365.76 204.47) (xy 367.03 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c523e366-e595-4dba-88a4-390eb29fb89e")
 	)
 	(wire
 		(pts
@@ -11716,7 +12794,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 223.52) (xy 151.13 223.52)
+			(xy 137.16 223.52) (xy 138.43 223.52)
 		)
 		(stroke
 			(width 0)
@@ -11856,6 +12934,16 @@
 	)
 	(wire
 		(pts
+			(xy 416.56 204.47) (xy 417.83 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e824a113-f682-4268-9dfa-ef04b9a94c2e")
+	)
+	(wire
+		(pts
 			(xy 21.59 311.15) (xy 35.56 311.15)
 		)
 		(stroke
@@ -11943,6 +13031,16 @@
 			(type default)
 		)
 		(uuid "ed275e7e-d5fd-4438-8c81-c431507292d0")
+	)
+	(wire
+		(pts
+			(xy 345.44 39.37) (xy 345.44 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed7cc8e4-0bf1-4075-a8c8-95132ade389a")
 	)
 	(wire
 		(pts
@@ -12143,6 +13241,16 @@
 			(type default)
 		)
 		(uuid "f5b57a47-2be9-43f1-8b22-0b77c41e40c6")
+	)
+	(wire
+		(pts
+			(xy 347.98 41.91) (xy 347.98 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ccba83-738e-4307-8987-0378677c5054")
 	)
 	(wire
 		(pts
@@ -15025,7 +16133,7 @@
 		(uuid "3fcac498-e3ff-46dc-8768-98742a716106")
 	)
 	(label "PWM_NXP1"
-		(at 339.09 52.07 0)
+		(at 332.74 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15351,7 +16459,7 @@
 		(uuid "82bbfd06-6453-4ff1-8dce-aaea391e46e1")
 	)
 	(label "PWM_NXP4"
-		(at 339.09 54.61 0)
+		(at 332.74 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15503,7 +16611,7 @@
 		(uuid "94a2a7ca-9564-4e6b-86dd-99e193c508dc")
 	)
 	(label "PWM_NXP2"
-		(at 339.09 49.53 0)
+		(at 332.74 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15839,7 +16947,7 @@
 		(uuid "e59b9335-6841-4716-bbf7-fc83042b4910")
 	)
 	(label "PWM_NXP3"
-		(at 339.09 57.15 0)
+		(at 332.74 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16020,7 +17128,7 @@
 	)
 	(global_label "BRAKELIGHT"
 		(shape input)
-		(at 139.7 223.52 180)
+		(at 137.16 223.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16030,7 +17138,7 @@
 		)
 		(uuid "c81aad96-9420-4a25-93b5-e72b5c974c91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.4662 223.52 0)
+			(at 122.9262 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16605,6 +17713,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 229.87 49.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "048d3e4a-3f5c-4a25-93c6-4d2f8a72ddb2")
+		(property "Reference" "JP1"
+			(at 232.41 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 232.41 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 229.87 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 234.95 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3752e7e8-43d8-49be-9a67-fbba58ad5a5d")
+		)
+		(pin "2"
+			(uuid "326030ab-d135-43ae-b47f-e7942c5ed840")
+		)
+		(instances
+			(project "VCUinvertor"
+				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:IRLZ44N")
 		(at 441.96 200.66 0)
 		(unit 1)
@@ -16879,6 +18069,7 @@
 		)
 	)
 	(symbol
+		(lib_name "MIC4426_3")
 		(lib_id "Driver_FET:MIC4426")
 		(at 374.65 205.74 0)
 		(unit 1)
@@ -18956,6 +20147,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 314.96 212.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18ed6b0f-e5b1-4be3-ac41-942e4f715632")
+		(property "Reference" "Fan_PWM_2"
+			(at 317.5 215.3919 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 312.42 214.1221 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 309.88 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 314.96 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f3e1d07-5bd6-4bd1-9342-4fb8e37abf44")
+		)
+		(instances
+			(project "VCUinvertor"
+				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
+					(reference "Fan_PWM_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 86.36 220.98 0)
 		(unit 1)
@@ -19416,7 +20687,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V"
 			(at 440.944 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20781,6 +22052,7 @@
 		)
 	)
 	(symbol
+		(lib_name "MIC4426_1")
 		(lib_id "Driver_FET:MIC4426")
 		(at 267.97 209.55 0)
 		(unit 1)
@@ -21672,7 +22944,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V"
 			(at 359.664 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22892,7 +24164,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V"
 			(at 208.28 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23045,9 +24317,6 @@
 		)
 		(pin "14"
 			(uuid "6473f2b9-b51b-4db1-a11a-fd39f748176b")
-		)
-		(pin "15"
-			(uuid "b22481a0-a54e-4108-9643-f1485d34e94c")
 		)
 		(pin "7"
 			(uuid "27d3f32a-64ec-433f-83dd-12f5b0612a9f")
@@ -23240,6 +24509,86 @@
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 257.81 214.63 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59dd2588-77e4-4cf3-a85d-f7bec97ea7e6")
+		(property "Reference" "Fan_PWM_1"
+			(at 260.35 217.9319 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 255.27 216.6621 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 252.73 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 257.81 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35954a13-aa0c-49c0-a542-30af8b832c1f")
+		)
+		(instances
+			(project "VCUinvertor"
+				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
+					(reference "Fan_PWM_1")
 					(unit 1)
 				)
 			)
@@ -23897,7 +25246,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V"
 			(at 331.724 130.556 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24230,6 +25579,86 @@
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
 					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 345.44 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63d53136-6709-40b7-95ea-a8297af75289")
+		(property "Reference" "Throttle_PWM_2"
+			(at 347.98 34.7979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 347.98 37.3379 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 350.52 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 345.44 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "733a64db-9b91-46fb-8ad6-886edc04f790")
+		)
+		(instances
+			(project "VCUinvertor"
+				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
+					(reference "Throttle_PWM_2")
 					(unit 1)
 				)
 			)
@@ -24594,6 +26023,85 @@
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
 					(reference "JO33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 220.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "686cbbbb-30b7-4d45-a2a9-435d81867a37")
+		(property "Reference" "Brake_PWM1"
+			(at 126.238 217.678 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 140.97 218.9479 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 143.51 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eee4ff97-fd26-45e3-88c4-0e1cb211031e")
+		)
+		(instances
+			(project "VCUinvertor"
+				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
+					(reference "Brake_PWM1")
 					(unit 1)
 				)
 			)
@@ -26333,7 +27841,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V"
 			(at 154.686 248.666 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27078,7 +28586,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V"
 			(at 413.004 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27830,6 +29338,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 350.52 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "954c1ecc-185a-456b-b8a6-2dd1d48f9d04")
+		(property "Reference" "Brake_PWM_1"
+			(at 353.06 39.8779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 353.06 42.4179 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 355.6 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 350.52 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5eeed15c-1f64-4952-bfaf-3e64c78ca991")
+		)
+		(instances
+			(project "VCUinvertor"
+				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
+					(reference "Brake_PWM_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 353.06 78.74 0)
 		(unit 1)
@@ -28534,6 +30122,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 365.76 210.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f5894a6-046a-49ba-b8d9-5d315d38c243")
+		(property "Reference" "Pump_PWM_1"
+			(at 368.3 214.1219 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 363.22 212.8521 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 360.68 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 365.76 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "602e84e5-202e-4d4c-9eb2-63e7d106893b")
+		)
+		(instances
+			(project "VCUinvertor"
+				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
+					(reference "Pump_PWM_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 93.98 38.1 270)
 		(unit 1)
@@ -28905,6 +30573,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 416.56 209.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7351652-c596-49b0-b81b-8da53a60d38c")
+		(property "Reference" "Pump_PWM_2"
+			(at 419.1 212.8519 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 414.02 211.5821 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 411.48 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 411.48 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 416.56 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6285f267-ba2b-4854-98b7-bdfc2e5c1e65")
+		)
+		(instances
+			(project "VCUinvertor"
+				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
+					(reference "Pump_PWM_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 33.02 204.47 0)
 		(unit 1)
@@ -28989,6 +30737,86 @@
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
 					(reference "JO3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 347.98 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9caba2f-b219-4f15-b510-7a40581f1738")
+		(property "Reference" "Brake_PWM_2"
+			(at 350.52 37.3379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 350.52 39.8779 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 353.06 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 347.98 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e855cfdd-d4a5-4a2f-b7b9-829a0183ddac")
+		)
+		(instances
+			(project "VCUinvertor"
+				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
+					(reference "Brake_PWM_2")
 					(unit 1)
 				)
 			)
@@ -29195,6 +31023,7 @@
 		)
 	)
 	(symbol
+		(lib_name "MIC4426_2")
 		(lib_id "Driver_FET:MIC4426")
 		(at 323.85 208.28 0)
 		(unit 1)
@@ -31396,83 +33225,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 227.33 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cf9d2007-675e-472c-8d36-1eaf66d52b5a")
-		(property "Reference" "#PWR046"
-			(at 227.33 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 230.124 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "275ae0bc-f8fb-4c37-9ce0-7fa1794edbf6")
-		)
-		(instances
-			(project "VCUinvertor"
-				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "Conn_01x02_Socket_1")
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 53.34 306.07 90)
 		(unit 1)
@@ -34508,6 +36261,86 @@
 			(project "VCUinvertor"
 				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 353.06 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f864c398-14de-4eb9-a315-a3ca7463caa5")
+		(property "Reference" "Throttle_PWM_1"
+			(at 355.6 42.4179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 355.6 44.9579 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 358.14 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 353.06 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "480d9ea6-990b-4c50-9eb3-1d3645ac1053")
+		)
+		(instances
+			(project "VCUinvertor"
+				(path "/2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
+					(reference "Throttle_PWM_1")
 					(unit 1)
 				)
 			)
