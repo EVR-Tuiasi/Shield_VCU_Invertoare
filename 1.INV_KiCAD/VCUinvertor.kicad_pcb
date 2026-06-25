@@ -56,7 +56,7 @@
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
-			(usegerberattributes no)
+			(usegerberattributes yes)
 			(usegerberadvancedattributes no)
 			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12)
@@ -85,7 +85,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../Gerbers_bigSMD/")
+			(outputdirectory "../5.GBR_25.06.2026/")
 		)
 	)
 	(footprint "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm"
@@ -14096,7 +14096,7 @@
 			)
 		)
 		(property "Value" "VCC       GND"
-			(at 3.475 4.1275 -180)
+			(at 3.475 4.1275 180)
 			(layer "B.SilkS")
 			(uuid "91d5c07f-6bd6-41d9-a271-2be6dec54041")
 			(effects
