@@ -766,7 +766,7 @@
         "uuid": "2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
       }
     ],
-    "used_designators": "Brake_PWM1,Fan_PWM_2-3,Throttle_PWM_3,5V2,JP1,TP1-4,R53-61,R66,Pump_PWM_2,Q11",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
