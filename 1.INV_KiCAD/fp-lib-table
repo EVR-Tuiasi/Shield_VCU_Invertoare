@@ -1,0 +1,7 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "KiCad") (type "KiCad") (uri "D:/EVR Tuiasi 2026/Github/Shield_VCU_Invertoare/5.Downloaded_components/560020-0220/KiCad.pretty") (options "") (descr ""))
+	(lib (name "560020-0320") (type "KiCad") (uri "D:/EVR Tuiasi 2026/Github/Shield_VCU_Invertoare/5.Downloaded_components/560020-0320.pretty") (options "") (descr ""))
+	(lib (name "560020-0220") (type "KiCad") (uri "D:/EVR Tuiasi 2026/Github/Shield_VCU_Invertoare/5.Downloaded_components/560020-0220/560020-0220.pretty") (options "") (descr ""))
+	(lib (name "560020-0320") (type "KiCad") (uri "D:/EVR Tuiasi 2026/Github/Shield_VCU_Invertoare/5.Downloaded_components/560020-0320/560020-0320.pretty") (options "") (descr ""))
+)
