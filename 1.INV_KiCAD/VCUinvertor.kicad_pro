@@ -766,7 +766,7 @@
         "uuid": "2b4b6758-f217-4dbc-8f9c-9ada5d4e488c"
       }
     ],
-    "used_designators": "CAN2",
+    "used_designators": "R25-28,R30,CAN2,U2,#PWR53-54,#PWR61,#PWR64,#PWR66-69,SW1",
     "variants": []
   },
   "sheets": [
